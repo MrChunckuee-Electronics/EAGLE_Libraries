@@ -1,6 +1,6 @@
 #Eagle Libraries
 ***
-![Portada](https://github.com/MrChunckuee/Eagle-Libraries/blob/master/CadSoft-Eagle%20Logo.jpg)
+![Portada](https://github.com/MrChunckuee/EAGLE_Libraries/blob/master/CadSoft-Eagle%20Logo.jpgg)
 
 Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas saber mas a detalle te invito a visitar [**E&R by MrChuckuee**] (http://mrchunckuee.blogspot.mx/p/cadsoft-eagle.html) 
 
