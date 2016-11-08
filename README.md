@@ -29,10 +29,14 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
  
 **E&R_Conectores.lbr**
 - JACK AUDIO 3.5MM
- 
+
+**E&R_Diodos.lbr**
+- LED RGB de 5MM Through-Hole ánodo común
+- LED RGB de 5MM Through-Hole cátodo común
+
 **E&R_Displays.lbr**
-- GMM-12088ASB Matriz de LEDs 8x8 (Anodo) 
-- GMM-12088CSB Matriz de LEDs 8x8 (Catodo)
+- GMM-12088ASB Matriz de LEDs 8x8 (Ánodo) 
+- GMM-12088CSB Matriz de LEDs 8x8 (Cátodo)
  
 **E&R_Microchip.lbr**
 - PIC18F25K22
