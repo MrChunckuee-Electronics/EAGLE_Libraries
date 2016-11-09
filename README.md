@@ -20,38 +20,71 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
  
 **E&R_CircuitosIntegrados.lbr**
 - 74HC595
+- 74LVC244
 - FT323R
 - Decoder HT12D
 - Encoder HT12E
+- IR4427
 - L293
 - L298 (PowerSO20)
 - MAX232
+- VIPPER22A
  
 **E&R_Conectores.lbr**
 - JACK AUDIO 3.5MM
+- Mini USB
+- RJ-12
 
 **E&R_Diodos.lbr**
 - LED RGB de 5MM Through-Hole ánodo común
 - LED RGB de 5MM Through-Hole cátodo común
 
 **E&R_Displays.lbr**
+- Display alfanumerico LCD 2x16
 - GMM-12088ASB Matriz de LEDs 8x8 (Ánodo) 
 - GMM-12088CSB Matriz de LEDs 8x8 (Cátodo)
- 
+
+**E&R_Inductores.lbr**
+- 15104C
+- A9619-CL
+- DR-R1
+- MSS1038
+- RLB0712
+- RN112-06/02
+- Transformador (En forma de bornera para PCB)
+
 **E&R_Microchip.lbr**
 - PIC18F25K22
+- PIC18F46K22
 - PIC18F1320
 - PIC18F4620
 - PIC24FV32KA304
  
 **E&R_Modulos.lbr**
+- Bluetooth HC-05
+- Bluetooth SG133-SZ (Chino)
+- Master-Chip (Plantilla base paralos PICs de la PIC-TRAINER v2.0)
 - Receptor RF de 434MHz RLP434
 - Transmisor RF de 434MHz RLP434
 
+**E&R_Reguladores.lbr**
+- 7805
+- 7833
+- NX1117
+- TLV431
+- TPS5430
+
 **E&R_Sensores.lbr**
+- ACS712
 - CNY70
 - GP2Y0D340K
 - Fotorresistencia LDR
 - LM35
 - PNA4602
 - QRD1114
+
+**E&R_Transistores.lbr**
+- FDS2582
+- FDS3572
+- IPB60R125C
+- IPD600N25N3
