@@ -63,7 +63,7 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 **E&R_Modulos.lbr**
 - Bluetooth HC-05
 - Bluetooth SG133-SZ (Chino)
-- Master-Chip (Plantilla base paralos PICs de la PIC-TRAINER v2.0)
+- Master-Chip (Plantilla base para los PICs de la PIC-TRAINER v2.0)
 - Receptor RF de 434MHz RLP434
 - Transmisor RF de 434MHz RLP434
 
