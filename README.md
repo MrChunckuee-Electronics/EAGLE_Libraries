@@ -4,7 +4,7 @@
 Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas saber mas a detalle te invito a visitar [**E&R by MrChuckuee**] (http://mrchunckuee.blogspot.mx/p/cadsoft-eagle.html) 
 
 <p align="center">
-  <img src="https://https://github.com/MrChunckuee/EAGLE_Libraries/blob/master/CadSoft-Eagle%20Logo.jpg)"/>
+  <img src="https://2.bp.blogspot.com/-kAmCcFyFx9A/VCYkIJuVzQI/AAAAAAAAB0Y/Xs1uNUrpw6M/s1600/eagle.jpg)"/>
 </p>
 
 ***
