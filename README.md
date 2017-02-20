@@ -91,3 +91,12 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - FDS3572
 - IPB60R125C
 - IPD600N25N3
+
+***
+Puedes seguirme en:
+- [Blogspot](http://mrchunckuee.blogspot.com)
+- [Facebook](https://www.facebook.com/ElectronicayRobotica)
+- [Twitter](https://twitter.com/MrChunckuee)
+- [GitHub](https://github.com/MrChunckuee)
+- [YouTube](https://www.youtube.com/user/mrchunckueepsr)
+- [Google+](https://plus.google.com/u/0/+PedroSanchez-MrChunckuee)
