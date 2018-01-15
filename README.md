@@ -24,6 +24,7 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 **E&R_CircuitosIntegrados.lbr**
 - 74HC595
 - 74LVC244
+- BQ32000
 - FT323R
 - Decoder HT12D
 - Encoder HT12E
@@ -37,6 +38,7 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - JACK AUDIO 3.5MM
 - Mini USB
 - RJ-12
+- Conector ICSP para PICs
 
 **E&R_Diodos.lbr**
 - LED RGB de 5MM Through-Hole ánodo común
@@ -62,6 +64,7 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - PIC18F1320
 - PIC18F4620
 - PIC24FV32KA304
+- PIC32MX270F256D
  
 **E&R_Modulos.lbr**
 - Bluetooth HC-05
@@ -73,6 +76,7 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 **E&R_Reguladores.lbr**
 - 7805
 - 7833
+- A8498
 - NX1117
 - TLV431
 - TPS5430
