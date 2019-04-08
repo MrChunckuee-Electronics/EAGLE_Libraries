@@ -70,14 +70,19 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;ELECTRÓNICA &amp; ROBOTICA BY MRCHUNCKUEE&lt;/b&gt;&lt;p&gt;
+<description>&lt;b&gt;E&amp;R by MrChunckue&lt;/b&gt;&lt;p&gt;
 Librería con sensores de diferentes tipos; IR, presensia, temperatura, etc.&lt;p&gt;
 &lt;ul&gt;
 &lt;li&gt;14/01/2015: Creación de la librería.
 &lt;li&gt;15/01/2015: Se agregaron los dispositivos; CNY70, GP2Y0D340K, LDR, LM35, PNA4602 y QRD1114.
 &lt;li&gt;08/11/2016: Se agrego sensor de corriente ACS712.
+&lt;li&gt;08/04/2019: Se agrego sensor de corriente HV7801 e INA199B2
 &lt;/ul&gt;
-Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas, al usarlas no me causaron ningún conflicto pero eso no garantiza el perfecto funcionamiento de ellas.&lt;p&gt;
+
+Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
+
+&lt;b&gt;Descarga de responsabilidad:&lt;/b&gt; Es necesario mencionar que mis librerias son sólo para fines didacticos y en ningún momento se puede garantizar que sea exacta, funcional, completa o actualizada. Por lo tanto no asumo ninguna responsabilidad que se pueda derivar por el mal uso de la información, así que utilícela de manera responsable y bajo su propio riesgo.
+
 &lt;hr&gt;
 &lt;b&gt;Author: &lt;/b&gt; Pedro Sánchez Ramírez (MrChunckuee)&lt;br&gt;
 &lt;b&gt;E-mail: &lt;/b&gt; mrchunckuee.psr@gmail.com&lt;br&gt;
@@ -266,6 +271,48 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <rectangle x1="2.3049" y1="0.085" x2="2.7951" y2="1.185" layer="51" rot="R270"/>
 <rectangle x1="2.3049" y1="1.355" x2="2.7951" y2="2.455" layer="51" rot="R270"/>
 <rectangle x1="-1" y1="-1" x2="1" y2="1" layer="35"/>
+</package>
+<package name="SOT23-5">
+<description>&lt;b&gt;SOT23-5&lt;/b&gt;</description>
+<wire x1="-1.45" y1="-0.8" x2="1.45" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="1.45" y1="-0.8" x2="1.45" y2="0.8" width="0.2032" layer="21"/>
+<wire x1="1.45" y1="0.8" x2="-1.45" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="-1.45" y1="0.8" x2="-1.45" y2="-0.8" width="0.2032" layer="21"/>
+<smd name="2" x="0" y="-1.2" dx="0.5" dy="1" layer="1"/>
+<smd name="1" x="-0.95" y="-1.2" dx="0.5" dy="1" layer="1"/>
+<smd name="3" x="0.95" y="-1.2" dx="0.5" dy="1" layer="1"/>
+<smd name="4" x="0.95" y="1.2" dx="0.5" dy="1" layer="1"/>
+<smd name="5" x="-0.95" y="1.2" dx="0.5" dy="1" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.175" y1="-1.6" x2="-0.725" y2="-0.9" layer="51"/>
+<rectangle x1="-0.225" y1="-1.6" x2="0.225" y2="-0.9" layer="51"/>
+<rectangle x1="0.725" y1="-1.6" x2="1.175" y2="-0.9" layer="51"/>
+<rectangle x1="-1.175" y1="0.9" x2="-0.725" y2="1.6" layer="51" rot="R180"/>
+<rectangle x1="0.725" y1="0.9" x2="1.175" y2="1.6" layer="51" rot="R180"/>
+</package>
+<package name="SC70-6L">
+<description>&lt;b&gt;SC-70 Package&lt;/b&gt;</description>
+<wire x1="1.1" y1="-0.5" x2="-1.1" y2="-0.5" width="0.2032" layer="51"/>
+<wire x1="-1.1" y1="-0.5" x2="-1.1" y2="0.5" width="0.2032" layer="21"/>
+<wire x1="-1.1" y1="0.5" x2="1.1" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="1.1" y1="0.5" x2="1.1" y2="-0.5" width="0.2032" layer="21"/>
+<circle x="-0.65" y="-0.2" radius="0.15" width="0" layer="21"/>
+<smd name="4" x="0.65" y="0.9906" dx="0.35" dy="1.0668" layer="1"/>
+<smd name="5" x="0" y="0.9906" dx="0.35" dy="1.0668" layer="1"/>
+<smd name="1" x="-0.65" y="-0.9906" dx="0.35" dy="1.0668" layer="1"/>
+<smd name="2" x="0" y="-0.9906" dx="0.35" dy="1.0668" layer="1"/>
+<smd name="3" x="0.65" y="-0.9906" dx="0.35" dy="1.0668" layer="1"/>
+<text x="-1.2" y="1.6675" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.2" y="-2.6675" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="0.5" y1="0.6" x2="0.8" y2="1.1" layer="51"/>
+<rectangle x1="-0.8" y1="0.6" x2="-0.5" y2="1.1" layer="51"/>
+<rectangle x1="-0.8" y1="-1.1" x2="-0.5" y2="-0.6" layer="51"/>
+<rectangle x1="-0.15" y1="-1.1" x2="0.15" y2="-0.6" layer="51"/>
+<rectangle x1="0.5" y1="-1.1" x2="0.8" y2="-0.6" layer="51"/>
+<smd name="6" x="-0.65" y="0.9906" dx="0.35" dy="1.0668" layer="1"/>
+<rectangle x1="-0.8" y1="0.6" x2="-0.5" y2="1.1" layer="51"/>
+<rectangle x1="-0.15" y1="0.6" x2="0.15" y2="1.1" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -485,6 +532,38 @@ Digital output (400 mm) type</description>
 <pin name="VCC" x="12.7" y="5.08" length="middle" direction="pwr" rot="R180"/>
 <pin name="GND" x="12.7" y="-2.54" length="middle" direction="pwr" rot="R180"/>
 </symbol>
+<symbol name="HV7801">
+<description>Reguladores y monitores de potencia y corriente HI-Voltage Driver &lt;p&gt;
+https://www.mouser.mx/datasheet/2/268/HV7801_A062813-1365745.pdf</description>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<pin name="3" x="-5.08" y="10.16" visible="pad" length="middle" rot="R270"/>
+<pin name="1" x="5.08" y="10.16" visible="pad" length="middle" rot="R270"/>
+<pin name="5" x="15.24" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
+<pin name="4" x="0" y="-10.16" visible="pad" length="middle" direction="pwr" rot="R90"/>
+<text x="-2.8863125" y="-4.468096875" size="1.778" layer="95">GND</text>
+<text x="4.6438" y="-0.9479875" size="1.778" layer="95">OUT</text>
+<text x="-5.781896875" y="2.57211875" size="1.778" layer="95">IN</text>
+<text x="2.041396875" y="2.4160875" size="1.778" layer="95">LOAD</text>
+<text x="2.54" y="-7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="INA199">
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="IN-" x="15.24" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="IN+" x="-15.24" y="5.08" length="middle" direction="in"/>
+<pin name="V+" x="-15.24" y="0" length="middle" direction="pwr"/>
+<pin name="GND" x="-15.24" y="-5.08" length="middle" direction="pwr"/>
+<pin name="OUT" x="15.24" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="REF" x="15.24" y="-5.08" length="middle" direction="in" rot="R180"/>
+<text x="-10.16" y="-10.16" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CNY70" prefix="U">
@@ -626,6 +705,48 @@ Digital output (400 mm) type</description>
 <connect gate="G$1" pin="IP-." pad="4"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
 <connect gate="G$1" pin="VIOUT" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HV7801" prefix="IC">
+<description>Reguladores y monitores de potencia y corriente HI-Voltage Driver &lt;p&gt;
+https://www.mouser.mx/datasheet/2/268/HV7801_A062813-1365745.pdf</description>
+<gates>
+<gate name="G$1" symbol="HV7801" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INA199B2" prefix="IC">
+<description>INA199-Q1 Automotive, 26-V, Bidirectional, Zero-Drift, Low- or High-Side,
+Voltage-Output, Current-Shunt Monitor</description>
+<gates>
+<gate name="G$1" symbol="INA199" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SC70-6L">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN+" pad="4"/>
+<connect gate="G$1" pin="IN-" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="REF" pad="1"/>
+<connect gate="G$1" pin="V+" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

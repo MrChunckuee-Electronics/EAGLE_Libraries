@@ -88,13 +88,17 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;ELECTRÓNICA &amp; ROBOTICA BY MRCHUNCKUEE&lt;/b&gt;&lt;p&gt;
+<description>&lt;b&gt;E&amp;R by MrChunckue&lt;/b&gt;&lt;p&gt;
 Librería con diferentes modulos comerciales.&lt;p&gt;
 &lt;ul&gt;
 &lt;li&gt;06/03/2016: Se agrego TLP434 y RLP434.
 &lt;li&gt;08/11/2016: Se agrego modulo bluetooth HC-05 y SG133-SZ, tambien MASTER-CHIP
 &lt;/ul&gt;
-Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas, al usarlas no me causaron ningún conflicto pero eso no garantiza el perfecto funcionamiento de ellas.&lt;p&gt;
+
+Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
+
+&lt;b&gt;Descarga de responsabilidad:&lt;/b&gt; Es necesario mencionar que mis librerias son sólo para fines didacticos y en ningún momento se puede garantizar que sea exacta, funcional, completa o actualizada. Por lo tanto no asumo ninguna responsabilidad que se pueda derivar por el mal uso de la información, así que utilícela de manera responsable y bajo su propio riesgo.
+
 &lt;hr&gt;
 &lt;b&gt;Author: &lt;/b&gt; Pedro Sánchez Ramírez (MrChunckuee)&lt;br&gt;
 &lt;b&gt;E-mail: &lt;/b&gt; mrchunckuee.psr@gmail.com&lt;br&gt;
