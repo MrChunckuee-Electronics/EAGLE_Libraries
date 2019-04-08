@@ -18,10 +18,15 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 
 ***
 ### Contenido de las librerias:
-**E&R_BoosterPacks.lbr**
+**EYR_BoosterPacks.lbr**
 - MSP430 LauchPad
+
+**EYR_Capacitores.lbr**
+- C-US con algunos tamaños usados que no estan en rcl
+- Supercondensador EEC-RG0V224HN
+- Supercondensador FM0V224ZF
  
-**E&R_CircuitosIntegrados.lbr**
+**EYR_CircuitosIntegrados.lbr**
 - 74HC595
 - 74LVC244
 - BQ32000
@@ -34,22 +39,31 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - MAX232
 - VIPPER22A
  
-**E&R_Conectores.lbr**
+**EYR_Conectores.lbr**
 - JACK AUDIO 3.5MM
 - Mini USB
 - RJ-12
 - Conector ICSP para PICs
+- FTDI conector de 6 pines 
+- Jack de alimentación PJ-202A
+- Jack de audio SJ1-3513N de 3.5mm
 
-**E&R_Diodos.lbr**
+**EYR_Crystal.lbr**
+- B26TRB-32.768KHZ-T
+- ECS-160-20-3X-TR
+
+**EYR_Diodos.lbr**
 - LED RGB de 5MM Through-Hole ánodo común
 - LED RGB de 5MM Through-Hole cátodo común
+- LED RGB SMD CLY6D-FKC-CK1N1D1BB7D3D3
 
-**E&R_Displays.lbr**
+**EYR_Displays.lbr**
 - Display alfanumerico LCD 2x16
 - GMM-12088ASB Matriz de LEDs 8x8 (Ánodo) 
 - GMM-12088CSB Matriz de LEDs 8x8 (Cátodo)
+- Pantalla OLED SSD1306 I2C
 
-**E&R_Inductores.lbr**
+**EYR_InductoresTransformadores.lbr**
 - 15104C
 - A9619-CL
 - DR-R1
@@ -57,8 +71,10 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - RLB0712
 - RN112-06/02
 - Transformador (En forma de bornera para PCB)
+- Inductor MSS1246
 
-**E&R_Microchip.lbr**
+**EYR_Microchip.lbr**
+- ATmega328PB 
 - PIC18F25K22
 - PIC18F46K22
 - PIC18F1320
@@ -66,14 +82,14 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - PIC24FV32KA304
 - PIC32MX270F256D
  
-**E&R_Modulos.lbr**
+**EYR_Modulos.lbr**
 - Bluetooth HC-05
 - Bluetooth SG133-SZ (Chino)
 - Master-Chip (Plantilla base para los PICs de la PIC-TRAINER v2.0)
 - Receptor RF de 434MHz RLP434
 - Transmisor RF de 434MHz RLP434
 
-**E&R_Reguladores.lbr**
+**EYR_Reguladores.lbr**
 - 7805
 - 7833
 - A8498
@@ -81,7 +97,11 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - TLV431
 - TPS5430
 
-**E&R_Sensores.lbr**
+**EYR_Resistores.lbr**
+- R-US_ con algunos tamaños usados que no estan en rcl
+- R-TRIMM para modificar los PADs de RTRIM3296X
+
+**EYR_Sensores.lbr**
 - ACS712
 - CNY70
 - GP2Y0D340K
@@ -89,12 +109,15 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - LM35
 - PNA4602
 - QRD1114
+- HV7801
+- INA199B2
 
-**E&R_Transistores.lbr**
+**EYR_Transistores.lbr**
 - FDS2582
 - FDS3572
 - IPB60R125C
 - IPD600N25N3
+- Mosfet N DMG2302UK-7
 
 ***
 Puedes seguirme en:
@@ -103,4 +126,3 @@ Puedes seguirme en:
 - [Twitter](https://twitter.com/MrChunckuee)
 - [GitHub](https://github.com/MrChunckuee)
 - [YouTube](https://www.youtube.com/user/mrchunckueepsr)
-- [Google+](https://plus.google.com/u/0/+PedroSanchez-MrChunckuee)

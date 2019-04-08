@@ -70,12 +70,16 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;ELECTRÓNICA &amp; ROBOTICA BY MRCHUNCKUEE&lt;/b&gt;&lt;p&gt;
+<description>&lt;b&gt;E&amp;R by MrChunckuee&lt;/b&gt;&lt;p&gt;
 Librería con plantillas para realizar boosterpack de TI.&lt;p&gt;
 &lt;ul&gt;
 &lt;li&gt;15/01/2015: Creación de la librería, se agrego la libreria para el MSP430 LauchPad
 &lt;/ul&gt;
-Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas, al usarlas no me causaron ningún conflicto pero eso no garantiza el perfecto funcionamiento de ellas.&lt;p&gt;
+
+Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
+
+&lt;b&gt;Descarga de responsabilidad:&lt;/b&gt; Es necesario mencionar que mis librerias son sólo para fines didacticos y en ningún momento se puede garantizar que sea exacta, funcional, completa o actualizada. Por lo tanto no asumo ninguna responsabilidad que se pueda derivar por el mal uso de la información, así que utilícela de manera responsable y bajo su propio riesgo.
+
 &lt;hr&gt;
 &lt;b&gt;Author: &lt;/b&gt; Pedro Sánchez Ramírez (MrChunckuee)&lt;br&gt;
 &lt;b&gt;E-mail: &lt;/b&gt; mrchunckuee.psr@gmail.com&lt;br&gt;
