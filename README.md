@@ -68,7 +68,7 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - GMM-12088CSB Matriz de LEDs 8x8 (Cátodo)
 - Pantalla OLED SSD1306 I2C
 
-**EYR_InductoresTransformadores.lbr**
+**EYR_Inductores.lbr**
 - 15104C
 - A9619-CL
 - DR-R1
@@ -123,20 +123,19 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - Switch JSX08001SAQNL
 
 **EYR_Transistores.lbr**
-- Transistor NPN BC817
 - FDS2582
 - FDS3572
-- IPB60R125C
-- IPD600N25N3
 - Mosfet N DMG2302UK-7
+- Mosfet N IPB60R125C
+- Mosfet N IPD600N25N3
+- Transistor NPN BC817
 
 **EYR_Varios.lbr**
-- Porta batteria CR2032H
+- Porta bateria CR2032H
 
 ***
 Puedes seguirme en:
 - [Blogspot](http://mrchunckuee.blogspot.com)
 - [Facebook](https://www.facebook.com/ElectronicayRobotica)
 - [Twitter](https://twitter.com/MrChunckuee)
-- [GitHub](https://github.com/MrChunckuee)
 - [YouTube](https://www.youtube.com/user/mrchunckueepsr)
