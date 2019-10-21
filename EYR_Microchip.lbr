@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -99,6 +100,7 @@ Librería con microcontroladores y dispositivos de Microchip.&lt;p&gt;
 &lt;li&gt;08/02/2017: Se edito los nombre de algunos pines del PIC18F25K22
 &lt;li&gt;14/01/2018: Se agrego el PIC32MX270F256D
 &lt;li&gt;08/04/2019: Se agrego el ATmega328PB
+&lt;li&gt;20/10/2019: Rediseño del simbolo del PIC18F46K22
 &lt;/ul&gt;
 
 Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
@@ -754,54 +756,6 @@ package type TQ</description>
 <pin name="RB7" x="-10.16" y="25.4" length="middle" rot="R270"/>
 <pin name="RB8" x="-12.7" y="25.4" length="middle" rot="R270"/>
 </symbol>
-<symbol name="PIC18F46K22">
-<wire x1="-27.94" y1="22.86" x2="27.94" y2="22.86" width="0.254" layer="94"/>
-<wire x1="27.94" y1="22.86" x2="27.94" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-25.4" x2="-27.94" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-27.94" y1="-25.4" x2="-27.94" y2="22.86" width="0.254" layer="94"/>
-<text x="-27.94" y="24.13" size="1.778" layer="95">&gt;NAME</text>
-<text x="-27.94" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="RC7/RX/DT" x="30.48" y="-10.16" length="short" rot="R180"/>
-<pin name="RD4/PSP4" x="30.48" y="-7.62" length="short" rot="R180"/>
-<pin name="RD5/SPP5/P1B" x="30.48" y="-5.08" length="short" rot="R180"/>
-<pin name="RD6/SPP6/P1C" x="30.48" y="-2.54" length="short" rot="R180"/>
-<pin name="RD7/SPP7/P1D" x="30.48" y="0" length="short" rot="R180"/>
-<pin name="VSS" x="-2.54" y="-27.94" length="short" direction="pwr" rot="R90"/>
-<pin name="VDD" x="-2.54" y="25.4" length="short" direction="pwr" rot="R270"/>
-<pin name="RB0/INT0/FLT0/AN12" x="30.48" y="2.54" length="short" rot="R180"/>
-<pin name="RB1/INT1/AN10" x="30.48" y="5.08" length="short" rot="R180"/>
-<pin name="RB2/INT2/AN8" x="30.48" y="7.62" length="short" rot="R180"/>
-<pin name="RB3/AN9/CCP2" x="30.48" y="10.16" length="short" rot="R180"/>
-<pin name="RB4/KBI0/AN11" x="30.48" y="12.7" length="short" rot="R180"/>
-<pin name="RB5/KBI1/PGM" x="30.48" y="15.24" length="short" rot="R180"/>
-<pin name="RB6/KBI2/PGC" x="30.48" y="17.78" length="short" rot="R180"/>
-<pin name="RB7/BKI3/PGD" x="30.48" y="20.32" length="short" rot="R180"/>
-<pin name="!MCLR!/VPP/RE3" x="-30.48" y="20.32" length="short" direction="in"/>
-<pin name="RA0/AN0" x="-30.48" y="17.78" length="short"/>
-<pin name="RA1/AN1" x="-30.48" y="15.24" length="short"/>
-<pin name="RA2/AN2/VREF-/CVREF" x="-30.48" y="12.7" length="short"/>
-<pin name="RA3/AN3/VREF+" x="-30.48" y="10.16" length="short"/>
-<pin name="RA4/T0CKI/CIOUT" x="-30.48" y="7.62" length="short"/>
-<pin name="RA5/AN4/!SS!/HLVDIN/C2OUT" x="-30.48" y="5.08" length="short"/>
-<pin name="RE0/!RD!/AN5" x="-30.48" y="2.54" length="short"/>
-<pin name="RE1/!WR!/AN6" x="-30.48" y="0" length="short"/>
-<pin name="RE2/!CS!/AN7" x="-30.48" y="-2.54" length="short"/>
-<pin name="VDD@1" x="2.54" y="25.4" length="short" direction="pwr" rot="R270"/>
-<pin name="VSS@1" x="2.54" y="-27.94" length="short" direction="pwr" rot="R90"/>
-<pin name="OSC1/CLKI/RA7" x="-30.48" y="-5.08" length="short" direction="in"/>
-<pin name="OSC2/CLKO/RA6" x="-30.48" y="-7.62" length="short" direction="out"/>
-<pin name="RC0/TIOSO/T13CKI" x="-30.48" y="-10.16" length="short"/>
-<pin name="RC1/T1OSI/ICCP2" x="-30.48" y="-12.7" length="short"/>
-<pin name="RC2/CCP1/P1A" x="-30.48" y="-15.24" length="short"/>
-<pin name="RC3/SCK/SCL" x="-30.48" y="-17.78" length="short"/>
-<pin name="RD0/SPP0" x="-30.48" y="-20.32" length="short"/>
-<pin name="RD1/SPP1" x="-30.48" y="-22.86" length="short"/>
-<pin name="RD2/SPP2" x="30.48" y="-22.86" length="short" rot="R180"/>
-<pin name="RD3/SPP3" x="30.48" y="-20.32" length="short" rot="R180"/>
-<pin name="RC4/SDI/SDA" x="30.48" y="-17.78" length="short" rot="R180"/>
-<pin name="RC5/SDO" x="30.48" y="-15.24" length="short" rot="R180"/>
-<pin name="RC6/TX/CK" x="30.48" y="-12.7" length="short" rot="R180"/>
-</symbol>
 <symbol name="PIC32MX270F256D">
 <wire x1="-33.02" y1="27.94" x2="33.02" y2="27.94" width="0.254" layer="94"/>
 <wire x1="33.02" y1="27.94" x2="33.02" y2="-30.48" width="0.254" layer="94"/>
@@ -893,6 +847,54 @@ package type TQ</description>
 <pin name="PC1(ADC1)" x="25.4" y="22.86" length="middle" rot="R180"/>
 <pin name="PC0(ADC0)" x="25.4" y="25.4" length="middle" rot="R180"/>
 <pin name="PC6(/RESET)" x="-22.86" y="25.4" length="middle" function="dot"/>
+</symbol>
+<symbol name="PIC18F46K22">
+<wire x1="-27.94" y1="30.48" x2="27.94" y2="30.48" width="0.254" layer="94"/>
+<wire x1="27.94" y1="30.48" x2="27.94" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-30.48" x2="-27.94" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="-30.48" x2="-27.94" y2="30.48" width="0.254" layer="94"/>
+<text x="-27.94" y="31.75" size="1.778" layer="95">&gt;NAME</text>
+<text x="-27.94" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="RC7/AN19/RX1/DT1" x="-30.48" y="-27.94" length="short"/>
+<pin name="SDO2/P2D/AN24/RD4" x="30.48" y="-12.7" length="short" rot="R180"/>
+<pin name="P1B/AN25/RD5" x="30.48" y="-15.24" length="short" rot="R180"/>
+<pin name="P1C/CK2/TX2/AN26/RD6" x="30.48" y="-17.78" length="short" rot="R180"/>
+<pin name="P1D/DT2/RX2/AN27/RD7" x="30.48" y="-20.32" length="short" rot="R180"/>
+<pin name="VSS" x="30.48" y="-27.94" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD" x="30.48" y="27.94" length="short" direction="pwr" rot="R180"/>
+<pin name="INT0/FLT0/AN12/RB0" x="30.48" y="20.32" length="short" rot="R180"/>
+<pin name="INT1/C12IN-/AN10/RB1" x="30.48" y="17.78" length="short" rot="R180"/>
+<pin name="INT2/AN8/RB2" x="30.48" y="15.24" length="short" rot="R180"/>
+<pin name="C12IN2-/CCP2/AN9/RB3" x="30.48" y="12.7" length="short" rot="R180"/>
+<pin name="/AN11/RB4" x="30.48" y="10.16" length="short" rot="R180"/>
+<pin name="CCP3/AN13/RB5" x="30.48" y="7.62" length="short" rot="R180"/>
+<pin name="RB6/PGC" x="30.48" y="5.08" length="short" rot="R180"/>
+<pin name="RB7/PGD" x="30.48" y="2.54" length="short" rot="R180"/>
+<pin name="!MCLR!/VPP/RE3" x="-30.48" y="27.94" length="short" direction="in"/>
+<pin name="RA0/AN0/C12IN0-" x="-30.48" y="15.24" length="short"/>
+<pin name="RA1/AN1/C12IN1-" x="-30.48" y="12.7" length="short"/>
+<pin name="RA2/AN2/C2IN+/VREF-" x="-30.48" y="10.16" length="short"/>
+<pin name="RA3/AN3/C1IN+/VREF+" x="-30.48" y="7.62" length="short"/>
+<pin name="RA4/T0CKI/CIOUT" x="-30.48" y="5.08" length="short"/>
+<pin name="RA5/AN4/!SS1!/HLVDIN/C2OUT" x="-30.48" y="2.54" length="short"/>
+<pin name="RE0/AN5/CCP3/P3A" x="-30.48" y="20.32" length="short"/>
+<pin name="RE1/AN6/P3B" x="-30.48" y="22.86" length="short"/>
+<pin name="RE2/AN7/CCP5" x="-30.48" y="25.4" length="short"/>
+<pin name="VDD@1" x="30.48" y="25.4" length="short" direction="pwr" rot="R180"/>
+<pin name="VSS@1" x="30.48" y="-25.4" length="short" direction="pwr" rot="R180"/>
+<pin name="OSC1/CLKI/RA7" x="-30.48" y="-5.08" length="short" direction="in"/>
+<pin name="OSC2/CLKO/RA6" x="-30.48" y="0" length="short" direction="out"/>
+<pin name="RC0/P2B/SOSCO" x="-30.48" y="-10.16" length="short"/>
+<pin name="RC1/CCP2/SOSCI" x="-30.48" y="-12.7" length="short"/>
+<pin name="RC2/AN14/CCP1/T5CKI" x="-30.48" y="-15.24" length="short"/>
+<pin name="RC3/AN15/SCK1/SCL1" x="-30.48" y="-17.78" length="short"/>
+<pin name="CSL2/SCK2/AN20/RD0" x="30.48" y="-2.54" length="short" rot="R180"/>
+<pin name="SDA2/SDI2/CCP4/AN21/RD1" x="30.48" y="-5.08" length="short" rot="R180"/>
+<pin name="P2B/AN22/RD2" x="30.48" y="-7.62" length="short" rot="R180"/>
+<pin name="!SS!2/P2C/AN23/RD3" x="30.48" y="-10.16" length="short" rot="R180"/>
+<pin name="RC4/AN16/SDI1/SDA1" x="-30.48" y="-20.32" length="short"/>
+<pin name="RC5/AN17/SDO1" x="-30.48" y="-22.86" length="short"/>
+<pin name="RC6/AN18/TX1/CK1" x="-30.48" y="-25.4" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1228,61 +1230,6 @@ package type TQ</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PIC18F46K22" prefix="IC">
-<description>&lt;B&gt;PIC18F46K22&lt;B&gt;</description>
-<gates>
-<gate name="G$1" symbol="PIC18F46K22" x="5.08" y="-2.54"/>
-</gates>
-<devices>
-<device name="TQFP44" package="TQFP44">
-<connects>
-<connect gate="G$1" pin="!MCLR!/VPP/RE3" pad="18"/>
-<connect gate="G$1" pin="OSC1/CLKI/RA7" pad="30"/>
-<connect gate="G$1" pin="OSC2/CLKO/RA6" pad="31"/>
-<connect gate="G$1" pin="RA0/AN0" pad="19"/>
-<connect gate="G$1" pin="RA1/AN1" pad="20"/>
-<connect gate="G$1" pin="RA2/AN2/VREF-/CVREF" pad="21"/>
-<connect gate="G$1" pin="RA3/AN3/VREF+" pad="22"/>
-<connect gate="G$1" pin="RA4/T0CKI/CIOUT" pad="23"/>
-<connect gate="G$1" pin="RA5/AN4/!SS!/HLVDIN/C2OUT" pad="24"/>
-<connect gate="G$1" pin="RB0/INT0/FLT0/AN12" pad="8"/>
-<connect gate="G$1" pin="RB1/INT1/AN10" pad="9"/>
-<connect gate="G$1" pin="RB2/INT2/AN8" pad="10"/>
-<connect gate="G$1" pin="RB3/AN9/CCP2" pad="11"/>
-<connect gate="G$1" pin="RB4/KBI0/AN11" pad="14"/>
-<connect gate="G$1" pin="RB5/KBI1/PGM" pad="15"/>
-<connect gate="G$1" pin="RB6/KBI2/PGC" pad="16"/>
-<connect gate="G$1" pin="RB7/BKI3/PGD" pad="17"/>
-<connect gate="G$1" pin="RC0/TIOSO/T13CKI" pad="32"/>
-<connect gate="G$1" pin="RC1/T1OSI/ICCP2" pad="35"/>
-<connect gate="G$1" pin="RC2/CCP1/P1A" pad="36"/>
-<connect gate="G$1" pin="RC3/SCK/SCL" pad="37"/>
-<connect gate="G$1" pin="RC4/SDI/SDA" pad="42"/>
-<connect gate="G$1" pin="RC5/SDO" pad="43"/>
-<connect gate="G$1" pin="RC6/TX/CK" pad="44"/>
-<connect gate="G$1" pin="RC7/RX/DT" pad="1"/>
-<connect gate="G$1" pin="RD0/SPP0" pad="38"/>
-<connect gate="G$1" pin="RD1/SPP1" pad="39"/>
-<connect gate="G$1" pin="RD2/SPP2" pad="40"/>
-<connect gate="G$1" pin="RD3/SPP3" pad="41"/>
-<connect gate="G$1" pin="RD4/PSP4" pad="2"/>
-<connect gate="G$1" pin="RD5/SPP5/P1B" pad="3"/>
-<connect gate="G$1" pin="RD6/SPP6/P1C" pad="4"/>
-<connect gate="G$1" pin="RD7/SPP7/P1D" pad="5"/>
-<connect gate="G$1" pin="RE0/!RD!/AN5" pad="25"/>
-<connect gate="G$1" pin="RE1/!WR!/AN6" pad="26"/>
-<connect gate="G$1" pin="RE2/!CS!/AN7" pad="27"/>
-<connect gate="G$1" pin="VDD" pad="7"/>
-<connect gate="G$1" pin="VDD@1" pad="28"/>
-<connect gate="G$1" pin="VSS" pad="6"/>
-<connect gate="G$1" pin="VSS@1" pad="29"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PIC32MX270F256D" prefix="IC" uservalue="yes">
 <description>&lt;B&gt;PIC32MX270F256D&lt;B&gt;</description>
 <gates>
@@ -1383,6 +1330,61 @@ ATmega328PB Automotive&lt;br&gt;</description>
 <connect gate="G$1" pin="PD7(AIN1)" pad="11"/>
 <connect gate="G$1" pin="VCC@1" pad="4"/>
 <connect gate="G$1" pin="VCC@2" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIC18F46K22" prefix="IC">
+<description>&lt;B&gt;PIC18F46K22&lt;B&gt;</description>
+<gates>
+<gate name="G$1" symbol="PIC18F46K22" x="5.08" y="-2.54"/>
+</gates>
+<devices>
+<device name="TQFP44" package="TQFP44">
+<connects>
+<connect gate="G$1" pin="!MCLR!/VPP/RE3" pad="18"/>
+<connect gate="G$1" pin="!SS!2/P2C/AN23/RD3" pad="41"/>
+<connect gate="G$1" pin="/AN11/RB4" pad="14"/>
+<connect gate="G$1" pin="C12IN2-/CCP2/AN9/RB3" pad="11"/>
+<connect gate="G$1" pin="CCP3/AN13/RB5" pad="15"/>
+<connect gate="G$1" pin="CSL2/SCK2/AN20/RD0" pad="38"/>
+<connect gate="G$1" pin="INT0/FLT0/AN12/RB0" pad="8"/>
+<connect gate="G$1" pin="INT1/C12IN-/AN10/RB1" pad="9"/>
+<connect gate="G$1" pin="INT2/AN8/RB2" pad="10"/>
+<connect gate="G$1" pin="OSC1/CLKI/RA7" pad="30"/>
+<connect gate="G$1" pin="OSC2/CLKO/RA6" pad="31"/>
+<connect gate="G$1" pin="P1B/AN25/RD5" pad="3"/>
+<connect gate="G$1" pin="P1C/CK2/TX2/AN26/RD6" pad="4"/>
+<connect gate="G$1" pin="P1D/DT2/RX2/AN27/RD7" pad="5"/>
+<connect gate="G$1" pin="P2B/AN22/RD2" pad="40"/>
+<connect gate="G$1" pin="RA0/AN0/C12IN0-" pad="19"/>
+<connect gate="G$1" pin="RA1/AN1/C12IN1-" pad="20"/>
+<connect gate="G$1" pin="RA2/AN2/C2IN+/VREF-" pad="21"/>
+<connect gate="G$1" pin="RA3/AN3/C1IN+/VREF+" pad="22"/>
+<connect gate="G$1" pin="RA4/T0CKI/CIOUT" pad="23"/>
+<connect gate="G$1" pin="RA5/AN4/!SS1!/HLVDIN/C2OUT" pad="24"/>
+<connect gate="G$1" pin="RB6/PGC" pad="16"/>
+<connect gate="G$1" pin="RB7/PGD" pad="17"/>
+<connect gate="G$1" pin="RC0/P2B/SOSCO" pad="32"/>
+<connect gate="G$1" pin="RC1/CCP2/SOSCI" pad="35"/>
+<connect gate="G$1" pin="RC2/AN14/CCP1/T5CKI" pad="36"/>
+<connect gate="G$1" pin="RC3/AN15/SCK1/SCL1" pad="37"/>
+<connect gate="G$1" pin="RC4/AN16/SDI1/SDA1" pad="42"/>
+<connect gate="G$1" pin="RC5/AN17/SDO1" pad="43"/>
+<connect gate="G$1" pin="RC6/AN18/TX1/CK1" pad="44"/>
+<connect gate="G$1" pin="RC7/AN19/RX1/DT1" pad="1"/>
+<connect gate="G$1" pin="RE0/AN5/CCP3/P3A" pad="25"/>
+<connect gate="G$1" pin="RE1/AN6/P3B" pad="26"/>
+<connect gate="G$1" pin="RE2/AN7/CCP5" pad="27"/>
+<connect gate="G$1" pin="SDA2/SDI2/CCP4/AN21/RD1" pad="39"/>
+<connect gate="G$1" pin="SDO2/P2D/AN24/RD4" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="7"/>
+<connect gate="G$1" pin="VDD@1" pad="28"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+<connect gate="G$1" pin="VSS@1" pad="29"/>
 </connects>
 <technologies>
 <technology name=""/>
