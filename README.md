@@ -47,6 +47,11 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - FTDI conector de 6 pines 
 - Jack de alimentación PJ-202A
 - Jack de audio SJ1-3513N de 3.5mm
+- Female Header 1x16
+- Pin Header 1x1
+- Pin Header 1x5 90°
+- Pin Header 1x26
+- TestPAD
 
 **EYR_Crystal.lbr**
 - B26TRB-32.768KHZ-T
@@ -112,12 +117,21 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - HV7801
 - INA199B2
 
+**EYR_Switches.lbr**
+- Encoder rotativo PEC11R
+- Switch SSSS91A600
+- Switch JSX08001SAQNL
+
 **EYR_Transistores.lbr**
+- Transistor NPN BC817
 - FDS2582
 - FDS3572
 - IPB60R125C
 - IPD600N25N3
 - Mosfet N DMG2302UK-7
+
+**EYR_Varios.lbr**
+- Porta batteria CR2032H
 
 ***
 Puedes seguirme en:
