@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -101,6 +100,7 @@ Librería con microcontroladores y dispositivos de Microchip.&lt;p&gt;
 &lt;li&gt;14/01/2018: Se agrego el PIC32MX270F256D
 &lt;li&gt;08/04/2019: Se agrego el ATmega328PB
 &lt;li&gt;20/10/2019: Rediseño del simbolo del PIC18F46K22
+&lt;li&gt;20/10/2019: Se agrego el PIC18F13K22
 &lt;/ul&gt;
 
 Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
@@ -591,6 +591,56 @@ package type TQ</description>
 <rectangle x1="-2.2286" y1="3.556" x2="-1.7714" y2="4.5466" layer="51"/>
 <rectangle x1="-3.0286" y1="3.556" x2="-2.5714" y2="4.5466" layer="51"/>
 </package>
+<package name="SSOP20">
+<description>&lt;b&gt;Shrink Small Outline Package&lt;/b&gt;&lt;p&gt;
+package type SS</description>
+<wire x1="-3.8" y1="-2.6" x2="3.8" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="3.8" y1="-2.6" x2="3.8" y2="2.6" width="0.2032" layer="21"/>
+<wire x1="3.8" y1="2.6" x2="-3.8" y2="2.6" width="0.2032" layer="21"/>
+<smd name="1" x="-2.925" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="2" x="-2.275" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="3" x="-1.625" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="4" x="-0.975" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="5" x="-0.325" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="6" x="0.325" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="7" x="0.975" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="8" x="1.625" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="9" x="2.275" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="10" x="2.925" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="11" x="2.925" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="12" x="2.275" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="13" x="1.625" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="14" x="0.975" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="15" x="0.325" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="16" x="-0.325" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="17" x="-0.975" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="18" x="-1.625" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="19" x="-2.275" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="20" x="-2.925" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<text x="-4.206" y="-2.5999" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.506" y="-2.5999" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-3.1028" y1="-3.937" x2="-2.7472" y2="-2.6416" layer="51"/>
+<rectangle x1="-2.4529" y1="-3.937" x2="-2.0973" y2="-2.6416" layer="51"/>
+<rectangle x1="-1.8029" y1="-3.937" x2="-1.4473" y2="-2.6416" layer="51"/>
+<rectangle x1="-1.1529" y1="-3.937" x2="-0.7973" y2="-2.6416" layer="51"/>
+<rectangle x1="-0.5029" y1="-3.937" x2="-0.1473" y2="-2.6416" layer="51"/>
+<rectangle x1="0.1471" y1="-3.937" x2="0.5027" y2="-2.6416" layer="51"/>
+<rectangle x1="0.7971" y1="-3.937" x2="1.1527" y2="-2.6416" layer="51"/>
+<rectangle x1="1.4473" y1="-3.937" x2="1.8029" y2="-2.6416" layer="51"/>
+<rectangle x1="2.0973" y1="-3.937" x2="2.4529" y2="-2.6416" layer="51"/>
+<rectangle x1="2.7473" y1="-3.937" x2="3.1029" y2="-2.6416" layer="51"/>
+<rectangle x1="2.7471" y1="2.6416" x2="3.1027" y2="3.937" layer="51"/>
+<rectangle x1="2.0971" y1="2.6416" x2="2.4527" y2="3.937" layer="51"/>
+<rectangle x1="1.4471" y1="2.6416" x2="1.8027" y2="3.937" layer="51"/>
+<rectangle x1="0.7972" y1="2.6416" x2="1.1528" y2="3.937" layer="51"/>
+<rectangle x1="0.1472" y1="2.6416" x2="0.5028" y2="3.937" layer="51"/>
+<rectangle x1="-0.5027" y1="2.6416" x2="-0.1471" y2="3.937" layer="51"/>
+<rectangle x1="-1.1527" y1="2.6416" x2="-0.7971" y2="3.937" layer="51"/>
+<rectangle x1="-1.8027" y1="2.6416" x2="-1.4471" y2="3.937" layer="51"/>
+<rectangle x1="-2.4527" y1="2.6416" x2="-2.0971" y2="3.937" layer="51"/>
+<rectangle x1="-3.1027" y1="2.6416" x2="-2.7471" y2="3.937" layer="51"/>
+<rectangle x1="-3.8999" y1="-2.5999" x2="-2.925" y2="2.5999" layer="27"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PIC18F25K22">
@@ -895,6 +945,34 @@ package type TQ</description>
 <pin name="RC4/AN16/SDI1/SDA1" x="-30.48" y="-20.32" length="short"/>
 <pin name="RC5/AN17/SDO1" x="-30.48" y="-22.86" length="short"/>
 <pin name="RC6/AN18/TX1/CK1" x="-30.48" y="-25.4" length="short"/>
+</symbol>
+<symbol name="PIC18F13K22">
+<wire x1="-15.24" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
+<pin name="VDD" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="VSS" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="RA5" x="-20.32" y="0" length="middle"/>
+<pin name="RA4" x="-20.32" y="2.54" length="middle"/>
+<pin name="RA3/MCLR" x="-20.32" y="5.08" length="middle"/>
+<pin name="RC5" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="RC4" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="RC3/PGM" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="RC6" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="RC7" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="RA0/PGD" x="-20.32" y="12.7" length="middle"/>
+<pin name="RA1/PGC" x="-20.32" y="10.16" length="middle"/>
+<pin name="RA2" x="-20.32" y="7.62" length="middle"/>
+<pin name="RC0" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="RC1" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="RC2" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="RB4" x="-20.32" y="-5.08" length="middle"/>
+<pin name="RB5/RX" x="-20.32" y="-7.62" length="middle"/>
+<pin name="RB7/TX" x="-20.32" y="-12.7" length="middle"/>
+<pin name="RB6" x="-20.32" y="-10.16" length="middle"/>
+<text x="-15.24" y="17.78" size="1.27" layer="95">&gt;NAME </text>
+<text x="-15.24" y="-17.78" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1385,6 +1463,40 @@ ATmega328PB Automotive&lt;br&gt;</description>
 <connect gate="G$1" pin="VDD@1" pad="28"/>
 <connect gate="G$1" pin="VSS" pad="6"/>
 <connect gate="G$1" pin="VSS@1" pad="29"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIC18F13K22" prefix="IC" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="PIC18F13K22" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SSOP20">
+<connects>
+<connect gate="G$1" pin="RA0/PGD" pad="19"/>
+<connect gate="G$1" pin="RA1/PGC" pad="18"/>
+<connect gate="G$1" pin="RA2" pad="17"/>
+<connect gate="G$1" pin="RA3/MCLR" pad="4"/>
+<connect gate="G$1" pin="RA4" pad="3"/>
+<connect gate="G$1" pin="RA5" pad="2"/>
+<connect gate="G$1" pin="RB4" pad="13"/>
+<connect gate="G$1" pin="RB5/RX" pad="12"/>
+<connect gate="G$1" pin="RB6" pad="11"/>
+<connect gate="G$1" pin="RB7/TX" pad="10"/>
+<connect gate="G$1" pin="RC0" pad="16"/>
+<connect gate="G$1" pin="RC1" pad="15"/>
+<connect gate="G$1" pin="RC2" pad="14"/>
+<connect gate="G$1" pin="RC3/PGM" pad="7"/>
+<connect gate="G$1" pin="RC4" pad="6"/>
+<connect gate="G$1" pin="RC5" pad="5"/>
+<connect gate="G$1" pin="RC6" pad="8"/>
+<connect gate="G$1" pin="RC7" pad="9"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="20"/>
 </connects>
 <technologies>
 <technology name=""/>
