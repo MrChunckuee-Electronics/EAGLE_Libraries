@@ -18,6 +18,10 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 
 ***
 ### Contenido de las librerias:
+
+**EYR_Battery**
+- Porta batería CR2032.
+
 **EYR_BoosterPacks.lbr**
 - MSP430 LauchPad
 
@@ -37,6 +41,7 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - L293
 - L298 (PowerSO20)
 - MAX232
+- MCP6001 amplificador operacional
 - VIPPER22A
  
 **EYR_Conectores.lbr**
@@ -49,8 +54,11 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - Jack de audio SJ1-3513N de 3.5mm
 - Female Header 1x16
 - Pin Header 1x1
+- Pin Header de 2x2
 - Pin Header 1x5 90°
 - Pin Header 1x26
+- SJ - Jumper de 2 PADs
+- SJ2W - Jumper de 3 PADs
 - TestPAD
 
 **EYR_Crystal.lbr**
@@ -80,6 +88,7 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 
 **EYR_Microchip.lbr**
 - ATmega328PB 
+- PIC18F13K22
 - PIC18F25K22
 - PIC18F46K22
 - PIC18F1320
@@ -116,6 +125,9 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - QRD1114
 - HV7801
 - INA199B2
+- Sensor de presión MPRLS0025PA00001A
+- Termistor 10K - NTCALUG03A103HC
+- Termistor 10K - NTCLE203E3103SB0
 
 **EYR_Switches.lbr**
 - Encoder rotativo PEC11R
@@ -123,8 +135,9 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - Switch JSX08001SAQNL
 
 **EYR_Transistores.lbr**
-- FDS2582
-- FDS3572
+- Mosfet FDS2582
+- Mosfet FDS3572
+- Mosfet FDS4435
 - Mosfet N DMG2302UK-7
 - Mosfet N IPB60R125C
 - Mosfet N IPD600N25N3
