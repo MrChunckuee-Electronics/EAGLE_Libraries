@@ -88,8 +88,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;E&amp;R by MrChunckuee&lt;/b&gt;&lt;p&gt;
-Librería con diferentes modulos comerciales.&lt;p&gt;
+<description>Diferentes modulos comerciales.&lt;p&gt;
 &lt;ul&gt;
 &lt;li&gt;06/03/2016: Se agrego TLP434 y RLP434.
 &lt;li&gt;08/11/2016: Se agrego modulo bluetooth HC-05 y SG133-SZ, tambien MASTER-CHIP
