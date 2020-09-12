@@ -72,8 +72,7 @@
 <layer number="101" name="Pedro_Lineas" color="14" fill="1" visible="no" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;E&amp;R by MrChunckuee&lt;/b&gt;&lt;p&gt;
-Librería con dispositivos que se relacionen con conectores&lt;p&gt;
+<description>Dispositivos que se relacionen con conectores&lt;p&gt;
 &lt;ul&gt;
 &lt;li&gt;12/02/2015: Se agredo el jack de audio de 3.5mm.
 &lt;li&gt;08/11/2016: Se agrego conector mini-USB y RL-12.
