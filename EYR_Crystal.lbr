@@ -70,8 +70,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;E&amp;R by MrChunckuee&lt;/b&gt;&lt;p&gt;
-Librería con cristales de cuarzo&lt;p&gt;
+<description>Cristales de cuarzo&lt;p&gt;
 &lt;ul&gt;
 &lt;li&gt;01/03/2019: Se agredo AB26TRB-32.768KHZ-T
 &lt;li&gt;02/04/2019: Se agrego ECS-160-20-3x-TR
