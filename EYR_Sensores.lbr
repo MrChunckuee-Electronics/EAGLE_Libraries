@@ -70,8 +70,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;E&amp;R by MrChunckuee&lt;/b&gt;&lt;p&gt;
-Librería con sensores de diferentes tipos; IR, presensia, temperatura, etc.&lt;p&gt;
+<description>Sensores de diferentes tipos; IR, presensia, temperatura, etc.&lt;p&gt;
 &lt;ul&gt;
 &lt;li&gt;14/01/2015: Creación de la librería.
 &lt;li&gt;15/01/2015: Se agregaron los dispositivos; CNY70, GP2Y0D340K, LDR, LM35, PNA4602 y QRD1114.
