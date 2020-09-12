@@ -69,8 +69,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;E&amp;R by MrChunckuee&lt;/b&gt;&lt;p&gt;
-Librería con resistencias  y potenciometros de diferentes familias o empresas.&lt;p&gt;
+<description>Resistencias  y potenciometros de diferentes familias o empresas.&lt;p&gt;
 &lt;ul&gt;
 &lt;li&gt;05/10/2018: Creacion de la libreria.
 &lt;li&gt;06/04/2019: Se agrego R-TRIMM proveniente de rcl y se modifico los PADs de RTRIM3296X.
