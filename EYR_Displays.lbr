@@ -72,8 +72,7 @@
 <layer number="102" name="Changes" color="12" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;E&amp;R by MrChunckuee&lt;/b&gt;&lt;p&gt;
-Librería con dispositivos que se relacionen con displays, LEDs, matrices, etc.&lt;p&gt;
+<description>Dispositivos que se relacionen con displays, LEDs, matrices, etc.&lt;p&gt;
 &lt;ul&gt;
 &lt;li&gt;15/01/2015: Creación de la librería, se agregaron las librerías para matrices de LEDs (GMM-12088ASB &amp; GMM-12088CSB) 
 &lt;li&gt;08/11/2016: Se agrego display alfanumerico LCD 2x16
