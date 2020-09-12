@@ -151,8 +151,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;E&amp;R by MrChunckuee&lt;/b&gt;&lt;p&gt;
-Librería para diferentes tipos de diodos&lt;p&gt;
+<description>Diodos y LEDs&lt;p&gt;
 &lt;ul&gt;
 &lt;li&gt;07/11/2016: Creación de la librería, se agrego la libreria LED RGB catodo común
 &lt;li&gt;08/11/2016: Se agrego la libreria para LED RGB anodo común
