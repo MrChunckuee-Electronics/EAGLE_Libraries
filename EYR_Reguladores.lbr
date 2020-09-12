@@ -70,8 +70,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;E&amp;R by MrChunckuee&lt;/b&gt;&lt;p&gt;
-Librería con reguladores de voltaje de diferentes modelos y caracteristicas.&lt;p&gt;
+<description>Reguladores de voltaje de diferentes modelos y caracteristicas.&lt;p&gt;
 &lt;ul&gt;
 &lt;li&gt;07/11/2016: Creación de la librería.
 &lt;li&gt;08/11/2016: Se agrego, 7805, 7833, NX1117, TLV431, TPS5430.
