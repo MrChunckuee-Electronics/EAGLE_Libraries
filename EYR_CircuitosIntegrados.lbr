@@ -156,10 +156,11 @@
 <description>Circuitos integrados de diferentes familias o empresas.&lt;p&gt;
 &lt;ul&gt;
 &lt;li&gt;06/03/2016: Se agregaron los CI; FT232, MAX232, L293, HT12D, HT12E.
-&lt;li&gt;11/08/2016: Se agrego el CI L298 en SMD
-&lt;li&gt;08/11/2016: Se agrego el CI VIPPER22A y 74LVC244
-&lt;li&gt;14/01/2018: Se agrego el RTC BQ32000
-&lt;li&gt;25/05/2020: Se agrego el operacional MCP6001
+&lt;li&gt;11/08/2016: Se agrego el CI L298 en SMD.
+&lt;li&gt;08/11/2016: Se agrego el CI VIPPER22A y 74LVC244.
+&lt;li&gt;14/01/2018: Se agrego el RTC BQ32000.
+&lt;li&gt;25/05/2020: Se agrego el operacional MCP6001.
+&lt;li&gt;16/10/2020: Se agrego el ADS1219,  el MAX3485 y el OPA344.
 &lt;/ul&gt;
 
 Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
@@ -1168,7 +1169,7 @@ Source: www.irf.com .. ir2520.pdf</description>
 <rectangle x1="-1" y1="-1" x2="1" y2="1" layer="35"/>
 </package>
 <package name="SOT23-5">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;, 5 lead</description>
+<description>&lt;b&gt;5-Pin Plastic Small Outline Surface Mount&lt;/b&gt;</description>
 <wire x1="-1.544" y1="0.713" x2="1.544" y2="0.713" width="0.1524" layer="51"/>
 <wire x1="1.544" y1="0.713" x2="1.544" y2="-0.712" width="0.1524" layer="21"/>
 <wire x1="1.544" y1="-0.712" x2="-1.544" y2="-0.712" width="0.1524" layer="51"/>
@@ -1534,6 +1535,46 @@ Source: www.irf.com .. ir2520.pdf</description>
 <pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
 <pin name="V+" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
 <pin name="V-" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="ADS1219">
+<pin name="A0" x="15.24" y="-10.16" length="short" direction="in" rot="R180"/>
+<pin name="A1" x="15.24" y="-7.62" length="short" direction="in" rot="R180"/>
+<pin name="!RESET" x="15.24" y="5.08" length="short" direction="in" rot="R180"/>
+<pin name="DGND" x="15.24" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<pin name="AGND" x="-15.24" y="-15.24" length="short" direction="pwr"/>
+<pin name="AIN3" x="-15.24" y="-2.54" length="short" direction="in"/>
+<pin name="AIN2" x="-15.24" y="-5.08" length="short" direction="in"/>
+<pin name="REFN" x="-15.24" y="5.08" length="short"/>
+<pin name="REFP" x="-15.24" y="7.62" length="short"/>
+<pin name="AIN1" x="-15.24" y="-7.62" length="short" direction="in"/>
+<pin name="AIN0" x="-15.24" y="-10.16" length="short" direction="in"/>
+<pin name="AVDD" x="-15.24" y="12.7" length="short" direction="pwr"/>
+<pin name="DVDD" x="15.24" y="12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="!DRDY" x="15.24" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="SDA" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="SCL" x="15.24" y="0" length="short" direction="in" rot="R180"/>
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-17.78" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<text x="-12.7" y="16.51" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-20.32" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MAX3485">
+<pin name="RO" x="-12.7" y="5.08" length="short" direction="out"/>
+<pin name="!RE" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="DE" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="DI" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="GND" x="12.7" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="A" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="B" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="VCC" x="12.7" y="7.62" length="short" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-10.16" y="11.43" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2057,6 +2098,83 @@ Source: https://www.mouser.mx/datasheet/2/268/21733j-740845.pdf</description>
 <connect gate="G$1" pin="OUT" pad="1"/>
 <connect gate="G$1" pin="V+" pad="2"/>
 <connect gate="G$1" pin="V-" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADS1219" prefix="U" uservalue="yes">
+<description>ADS1219 4-Channel, 1-kSPS, 24-Bit, Delta-Sigma ADC With I
+2C Interface 
+https://www.ti.com/lit/ds/symlink/ads1219.pdf?ts=1593130760143</description>
+<gates>
+<gate name="G$1" symbol="ADS1219" x="0" y="0"/>
+</gates>
+<devices>
+<device name="IPWR" package="TSSOP16">
+<connects>
+<connect gate="G$1" pin="!DRDY" pad="14"/>
+<connect gate="G$1" pin="!RESET" pad="3"/>
+<connect gate="G$1" pin="A0" pad="1"/>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="AGND" pad="5"/>
+<connect gate="G$1" pin="AIN0" pad="11"/>
+<connect gate="G$1" pin="AIN1" pad="10"/>
+<connect gate="G$1" pin="AIN2" pad="7"/>
+<connect gate="G$1" pin="AIN3" pad="6"/>
+<connect gate="G$1" pin="AVDD" pad="12"/>
+<connect gate="G$1" pin="DGND" pad="4"/>
+<connect gate="G$1" pin="DVDD" pad="13"/>
+<connect gate="G$1" pin="REFN" pad="8"/>
+<connect gate="G$1" pin="REFP" pad="9"/>
+<connect gate="G$1" pin="SCL" pad="16"/>
+<connect gate="G$1" pin="SDA" pad="15"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX3485" prefix="IC">
+<description>MAX3485CSA+T Circuito integrado para interfaz RS-422/RS-485 3.3V Powered</description>
+<gates>
+<gate name="G$1" symbol="MAX3485" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CSA+T" package="SO-08">
+<connects>
+<connect gate="G$1" pin="!RE" pad="2"/>
+<connect gate="G$1" pin="A" pad="6"/>
+<connect gate="G$1" pin="B" pad="7"/>
+<connect gate="G$1" pin="DE" pad="3"/>
+<connect gate="G$1" pin="DI" pad="4"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="RO" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OPA344" prefix="IC">
+<description>Amplificadores operacionales - Op Amps Lo Pwr Single-Sply Rail-to-Rail&lt;p&gt;
+Source: https://www.ti.com/lit/ds/sbos107a/sbos107a.pdf</description>
+<gates>
+<gate name="G$1" symbol="OPAMP+-" x="0" y="0"/>
+</gates>
+<devices>
+<device name="NA/3K" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="V-" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
