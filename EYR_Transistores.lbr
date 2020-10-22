@@ -190,7 +190,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 </package>
 </packages>
 <symbols>
-<symbol name="MOSFET-CANAL-N">
+<symbol name="MOSFET-N-CHANNEL-8P">
 <wire x1="-3.81" y1="3.81" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
@@ -246,59 +246,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <pin name="D1" x="5.08" y="5.08" visible="pad" length="middle" rot="R180"/>
 <pin name="D3" x="5.08" y="10.16" visible="pad" length="middle" rot="R180"/>
 </symbol>
-<symbol name="IPB60R125C6">
-<wire x1="-3.81" y1="3.81" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.635" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="3.81" x2="-2.54" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="3.175" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="3.175" x2="0" y2="3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="3.175" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0.635" x2="0" y2="0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="0.635" x2="0" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.905" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-1.905" x2="1.905" y2="1.397" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.397" x2="1.905" y2="3.175" width="0.254" layer="94"/>
-<wire x1="1.905" y1="3.175" x2="0" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.127" layer="94"/>
-<wire x1="-1.905" y1="1.27" x2="-1.905" y2="0" width="0.127" layer="94"/>
-<wire x1="-1.905" y1="0" x2="-2.54" y2="0.635" width="0.127" layer="94"/>
-<wire x1="-2.3114" y1="0.7874" x2="-1.9812" y2="1.0668" width="0.127" layer="94"/>
-<wire x1="-1.9812" y1="1.0668" x2="-1.9812" y2="0.1524" width="0.127" layer="94"/>
-<wire x1="-1.9812" y1="0.1524" x2="-2.3114" y2="0.5588" width="0.127" layer="94"/>
-<wire x1="-2.3114" y1="0.5588" x2="-2.032" y2="0.4064" width="0.127" layer="94"/>
-<wire x1="-2.032" y1="0.4064" x2="-2.032" y2="0.5588" width="0.127" layer="94"/>
-<wire x1="-2.2352" y1="0.762" x2="-2.0066" y2="0.8128" width="0.127" layer="94"/>
-<wire x1="-2.0066" y1="0.8128" x2="-2.1336" y2="0.889" width="0.127" layer="94"/>
-<wire x1="1.9812" y1="1.2192" x2="2.4384" y2="0.6096" width="0.127" layer="94"/>
-<wire x1="2.4384" y1="0.5842" x2="1.3716" y2="0.5842" width="0.127" layer="94"/>
-<wire x1="1.3716" y1="0.5842" x2="1.778" y2="1.1684" width="0.127" layer="94"/>
-<wire x1="2.0066" y1="1.0922" x2="2.286" y2="0.6604" width="0.127" layer="94"/>
-<wire x1="2.286" y1="0.6604" x2="2.0066" y2="0.7112" width="0.127" layer="94"/>
-<wire x1="2.0066" y1="0.7112" x2="2.032" y2="0.9652" width="0.127" layer="94"/>
-<wire x1="2.032" y1="0.9652" x2="2.1082" y2="0.7366" width="0.127" layer="94"/>
-<wire x1="2.1082" y1="0.7366" x2="1.5494" y2="0.6858" width="0.127" layer="94"/>
-<wire x1="1.5494" y1="0.6858" x2="1.778" y2="1.016" width="0.127" layer="94"/>
-<wire x1="1.778" y1="1.016" x2="1.7272" y2="0.762" width="0.127" layer="94"/>
-<wire x1="1.2446" y1="0.5334" x2="1.7526" y2="1.2192" width="0.127" layer="94"/>
-<wire x1="1.2446" y1="0.5334" x2="2.54" y2="0.508" width="0.127" layer="94"/>
-<wire x1="2.0574" y1="1.1938" x2="2.54" y2="0.5334" width="0.127" layer="94"/>
-<wire x1="1.7526" y1="1.2192" x2="1.8796" y2="1.397" width="0.127" layer="94"/>
-<wire x1="1.905" y1="1.397" x2="2.5654" y2="0.508" width="0.127" layer="94"/>
-<wire x1="1.4732" y1="1.4478" x2="2.3114" y2="1.4478" width="0.254" layer="94"/>
-<text x="2.54" y="-2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="D" x="0" y="10.16" visible="pad" length="middle" rot="R270"/>
-<pin name="S" x="0" y="-7.62" visible="pad" length="middle" rot="R90"/>
-<pin name="G" x="-10.16" y="0" visible="pad" length="middle"/>
-</symbol>
-<symbol name="IPD600N25N3">
+<symbol name="MOSFET-N-CHANNEL">
 <wire x1="-1.1176" y1="2.413" x2="-1.1176" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-1.1176" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
@@ -450,10 +398,10 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FDS2582" prefix="Q" uservalue="yes">
+<deviceset name="FDS2582" prefix="Q">
 <description>N-Channel PowerTrench® MOSFET</description>
 <gates>
-<gate name="G$1" symbol="MOSFET-CANAL-N" x="-2.54" y="0"/>
+<gate name="G$1" symbol="MOSFET-N-CHANNEL-8P" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="SO-08">
@@ -473,10 +421,10 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 </device>
 </devices>
 </deviceset>
-<deviceset name="FDS3572" prefix="Q" uservalue="yes">
+<deviceset name="FDS3572" prefix="Q">
 <description>N-Channel PowerTrench MOSFET 80V, 8.9A, 16mOhms</description>
 <gates>
-<gate name="G$1" symbol="MOSFET-CANAL-N" x="0" y="0"/>
+<gate name="G$1" symbol="MOSFET-N-CHANNEL-8P" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SO-08">
@@ -496,10 +444,10 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 </device>
 </devices>
 </deviceset>
-<deviceset name="IPB60R125C" prefix="Q" uservalue="yes">
+<deviceset name="IPB60R125C" prefix="Q">
 <description>MOSFET 600V CoolMOS C6 Power Transistor</description>
 <gates>
-<gate name="G$1" symbol="IPB60R125C6" x="-2.54" y="2.54"/>
+<gate name="G$1" symbol="MOSFET-N-CHANNEL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="D2PACK">
@@ -518,7 +466,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <description>&lt;b&gt;HEXFET Power MosFet&lt;/b&gt;&lt;p&gt;
 Source: http://www.irf.com/</description>
 <gates>
-<gate name="G$1" symbol="IPD600N25N3" x="0" y="0"/>
+<gate name="G$1" symbol="MOSFET-N-CHANNEL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="D-PAK_TO252AA">
@@ -533,7 +481,7 @@ Source: http://www.irf.com/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DMG2302UK-7" prefix="Q" uservalue="yes">
+<deviceset name="DMG2302UK-7" prefix="Q">
 <description>&lt;b&gt;N-CHANNEL ENHANCEMENT MODE MOSFET&lt;/b&gt;&lt;p&gt;
 Source: https://www.mouser.mx/datasheet/2/115/DMG2302UK-959451.pdf</description>
 <gates>
@@ -552,7 +500,7 @@ Source: https://www.mouser.mx/datasheet/2/115/DMG2302UK-959451.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC817" prefix="Q" uservalue="yes">
+<deviceset name="BC817" prefix="Q">
 <description>&lt;B&gt;BC817-40,215&lt;/B&gt;&lt;p&gt;
 Source: https://www.mouser.mx/datasheet/2/916/BC817_SER-1598763.pdf</description>
 <gates>
