@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -869,28 +869,28 @@ package type SS</description>
 <wire x1="12.7" y1="15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
-<pin name="VDD" x="17.78" y="12.7" length="middle" rot="R180"/>
-<pin name="VSS" x="17.78" y="-12.7" length="middle" rot="R180"/>
-<pin name="RA5" x="-20.32" y="0" length="middle"/>
-<pin name="RA4" x="-20.32" y="2.54" length="middle"/>
-<pin name="RA3/MCLR" x="-20.32" y="5.08" length="middle"/>
-<pin name="RC5" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="RC4" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="RC3/PGM" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="RC6" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="RC7" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<pin name="RA0/PGD" x="-20.32" y="12.7" length="middle"/>
-<pin name="RA1/PGC" x="-20.32" y="10.16" length="middle"/>
-<pin name="RA2" x="-20.32" y="7.62" length="middle"/>
-<pin name="RC0" x="17.78" y="10.16" length="middle" rot="R180"/>
-<pin name="RC1" x="17.78" y="7.62" length="middle" rot="R180"/>
-<pin name="RC2" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="RB4" x="-20.32" y="-5.08" length="middle"/>
-<pin name="RB5/RX" x="-20.32" y="-7.62" length="middle"/>
-<pin name="RB7/TX" x="-20.32" y="-12.7" length="middle"/>
-<pin name="RB6" x="-20.32" y="-10.16" length="middle"/>
-<text x="-15.24" y="17.78" size="1.27" layer="95">&gt;NAME </text>
-<text x="-15.24" y="-17.78" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="VDD" x="15.24" y="12.7" length="short" rot="R180"/>
+<pin name="VSS" x="15.24" y="-12.7" length="short" rot="R180"/>
+<pin name="RA5" x="-17.78" y="0" length="short"/>
+<pin name="RA4" x="-17.78" y="2.54" length="short"/>
+<pin name="RA3/MCLR" x="-17.78" y="5.08" length="short"/>
+<pin name="RC5" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="RC4" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="RC3/PGM" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="RC6" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="RC7" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="RA0/PGD" x="-17.78" y="12.7" length="short"/>
+<pin name="RA1/PGC" x="-17.78" y="10.16" length="short"/>
+<pin name="RA2" x="-17.78" y="7.62" length="short"/>
+<pin name="RC0" x="15.24" y="10.16" length="short" rot="R180"/>
+<pin name="RC1" x="15.24" y="7.62" length="short" rot="R180"/>
+<pin name="RC2" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="RB4" x="-17.78" y="-5.08" length="short"/>
+<pin name="RB5/RX" x="-17.78" y="-7.62" length="short"/>
+<pin name="RB7/TX" x="-17.78" y="-12.7" length="short"/>
+<pin name="RB6" x="-17.78" y="-10.16" length="short"/>
+<text x="-15.24" y="15.98" size="1.27" layer="95">&gt;NAME </text>
+<text x="-15.24" y="-17.18" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="PIC18F25K22">
 <wire x1="-40.64" y1="22.86" x2="40.64" y2="22.86" width="0.254" layer="94"/>
@@ -1304,7 +1304,7 @@ ATmega328PB Automotive&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PIC18F13K22" prefix="U" uservalue="yes">
+<deviceset name="PIC18F13K22" prefix="U">
 <description>&lt;b&gt;PIC18F13K22&lt;/b&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="PIC18F13K22" x="0" y="0"/>
