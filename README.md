@@ -143,9 +143,6 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - Mosfet N IPD600N25N3
 - Transistor NPN BC817
 
-**EYR_Varios.lbr**
-- Porta bateria CR2032H
-
 ***
 Puedes seguirme en:
 - [Blogspot](http://mrchunckuee.blogspot.com)
