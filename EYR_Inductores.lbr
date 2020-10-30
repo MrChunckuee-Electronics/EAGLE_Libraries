@@ -185,7 +185,7 @@ Source: http://www.coilcraft.com/pdfs/mss1038.pdf</description>
 <wire x1="-10.62" y1="6.985" x2="-5.54" y2="6.985" width="0.4064" layer="21"/>
 <wire x1="6.05" y1="-7.62" x2="11.13" y2="-7.62" width="0.4064" layer="21"/>
 </package>
-<package name="RN112-">
+<package name="RN112">
 <pad name="1" x="-7.62" y="-5.08" drill="1.2" diameter="2.54"/>
 <pad name="2" x="7.38" y="-5.08" drill="1.2" diameter="2.54"/>
 <pad name="3" x="-7.62" y="4.92" drill="1.2" diameter="2.54"/>
@@ -373,7 +373,7 @@ Source: http://www.mouser.com/ds/2/597/mss1246-270708.pdf</description>
 <text x="3.81" y="-2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="3.81" y="-5.08" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
-<symbol name="RN112-">
+<symbol name="RN112">
 <pin name="1" x="-5.08" y="5.08" visible="off" length="short"/>
 <pin name="2" x="-5.08" y="-5.08" visible="off" length="short"/>
 <pin name="4" x="7.62" y="-5.08" visible="off" length="short" rot="R180"/>
@@ -467,7 +467,8 @@ Source: http://www.mouser.com/ds/2/597/mss1246-270708.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RLB0712" prefix="L" uservalue="yes">
+<deviceset name="RLB0712" prefix="L">
+<description>Inductores fijos</description>
 <gates>
 <gate name="G$1" symbol="L-US" x="0" y="0"/>
 </gates>
@@ -504,12 +505,13 @@ Source: http://www.mouser.com/ds/2/597/mss1246-270708.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RN112-" prefix="L" uservalue="yes">
+<deviceset name="RN112-" prefix="L">
+<description>Bobinas de modo común RN112-0.6/02</description>
 <gates>
-<gate name="G$1" symbol="RN112-" x="-2.54" y="0"/>
+<gate name="G$1" symbol="RN112" x="0" y="0"/>
 </gates>
 <devices>
-<device name="06/02" package="RN112-">
+<device name="06/02" package="RN112">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
