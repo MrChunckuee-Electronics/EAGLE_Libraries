@@ -20,13 +20,15 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 ### Contenido de las librerias:
 
 **EYR_Battery**
-| Parte| Descripcion| Package | 
+| Nro. Parte| Descripcion| Package | 
 | ----- | ---- | ---- |
-| CR2032 | Portabateria | | 
+| CR2032 | Porta bateria | | 
 
 
 **EYR_BoosterPacks.lbr**
-- MSP430 LauchPad
+| Nro. Parte| Descripcion| Package | 
+| ----- | ---- | ---- |
+| MSP430 LaunchPad | Plantillas para crear  boosterPacks | | 
 
 **EYR_Capacitores.lbr**
 - C-US con algunos tamaños usados que no estan en rcl
