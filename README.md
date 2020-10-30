@@ -20,7 +20,10 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 ### Contenido de las librerias:
 
 **EYR_Battery**
-- Porta batería CR2032.
+| Parte| Descripcion| Package | 
+| ----- | ---- | ---- |
+| CR2032 | Portabateria | | 
+
 
 **EYR_BoosterPacks.lbr**
 - MSP430 LauchPad
