@@ -20,10 +20,15 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 ### Contenido de las librerias:
 
 **EYR_Battery**
-- Porta batería CR2032.
+| Nro. Parte| Descripcion| Package | 
+| ----- | ---- | ---- |
+| CR2032 | Porta bateria | | 
+
 
 **EYR_BoosterPacks.lbr**
-- MSP430 LauchPad
+| Nro. Parte| Descripcion| Package | 
+| ----- | ---- | ---- |
+| MSP430 LaunchPad | Plantillas para crear  boosterPacks | | 
 
 **EYR_Capacitores.lbr**
 - C-US con algunos tamaños usados que no estan en rcl
@@ -142,9 +147,6 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - Mosfet N IPB60R125C
 - Mosfet N IPD600N25N3
 - Transistor NPN BC817
-
-**EYR_Varios.lbr**
-- Porta bateria CR2032H
 
 ***
 Puedes seguirme en:
