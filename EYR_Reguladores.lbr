@@ -300,10 +300,10 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <text x="1.641" y="-0.7072" size="1.4224" layer="95">VOUT</text>
 <text x="-7.6977" y="5.905" size="1.4224" layer="95">&gt;NAME</text>
 <text x="2.54" y="-7.62" size="1.4224" layer="95">&gt;VALUE</text>
-<pin name="P$1" x="0" y="-10.16" visible="pad" length="middle" direction="in" rot="R90"/>
-<pin name="P$2" x="12.7" y="-2.54" visible="pad" length="middle" direction="pwr" rot="R180"/>
-<pin name="P$3" x="-12.7" y="0" visible="pad" length="middle" direction="pwr"/>
-<pin name="P$4" x="12.7" y="2.54" visible="pad" length="middle" direction="pwr" rot="R180"/>
+<pin name="P$1" x="0" y="-7.62" visible="pad" length="short" direction="in" rot="R90"/>
+<pin name="P$2" x="10.16" y="-2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="P$3" x="-10.16" y="0" visible="pad" length="short" direction="pwr"/>
+<pin name="P$4" x="10.16" y="2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
 </symbol>
 <symbol name="A8498">
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
@@ -413,25 +413,15 @@ adjustable voltage reference with specified thermal</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NX1117" prefix="IC" uservalue="yes">
-<description>NX1117C; NX1117CE series
-Low-dropout linear regulators</description>
+<deviceset name="NX1117C50Z" prefix="IC">
+<description>NX1117C; NX1117CE series &lt;p&gt;
+Low-dropout linear regulators &lt;p&gt;
+Regulador de 5 volts</description>
 <gates>
 <gate name="G$1" symbol="NX1117" x="0" y="0"/>
 </gates>
 <devices>
-<device name="C50Z" package="SOT223">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
-<connect gate="G$1" pin="P$4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="C33Z" package="SOT223">
+<device name="" package="SOT223">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
@@ -460,6 +450,27 @@ Low-dropout linear regulators</description>
 <connect gate="G$1" pin="TX" pad="7"/>
 <connect gate="G$1" pin="VBIAS" pad="6"/>
 <connect gate="G$1" pin="VIN" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NX1117C33Z" prefix="IC">
+<description>NX1117C; NX1117CE series &lt;p&gt;
+Low-dropout linear regulators &lt;p&gt;
+Regulador de 3.3 volts</description>
+<gates>
+<gate name="G$1" symbol="NX1117" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
