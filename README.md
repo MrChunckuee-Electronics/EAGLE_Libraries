@@ -33,7 +33,9 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 **EYR_Capacitores.lbr**
 | Nro. Parte| Descripcion| Package | 
 | ----- | ---- | ---- |
-| C-US | Capacitores | | 
+| C-US | Capacitores | C080-043X113 | 
+|  | Capacitores | C102-054X133 | 
+|  | Capacitores | C200-062X024 | 
 | EEC-RG0V224HN | Supercondensador | | 
 | FM0V224ZF | Supercondensador | | 
  
