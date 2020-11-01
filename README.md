@@ -31,9 +31,11 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 | MSP430 LaunchPad | Plantillas para crear  boosterPacks | | 
 
 **EYR_Capacitores.lbr**
-- C-US con algunos tamaños usados que no estan en rcl
-- Supercondensador EEC-RG0V224HN
-- Supercondensador FM0V224ZF
+| Nro. Parte| Descripcion| Package | 
+| ----- | ---- | ---- |
+| C-US | Capacitores | | 
+| EEC-RG0V224HN | Supercondensador | | 
+| FM0V224ZF | Supercondensador | | 
  
 **EYR_CircuitosIntegrados.lbr**
 - 74HC595
