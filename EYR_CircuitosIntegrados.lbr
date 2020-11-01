@@ -2105,7 +2105,7 @@ Source: https://www.mouser.mx/datasheet/2/268/21733j-740845.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADS1219" prefix="U" uservalue="yes">
+<deviceset name="ADS1219" prefix="IC">
 <description>ADS1219 4-Channel, 1-kSPS, 24-Bit, Delta-Sigma ADC With I
 2C Interface 
 https://www.ti.com/lit/ds/symlink/ads1219.pdf?ts=1593130760143</description>
