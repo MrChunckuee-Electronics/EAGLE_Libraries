@@ -42,10 +42,10 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 **EYR_CircuitosIntegrados.lbr**
 | Nro. Parte| Descripcion| Package | 
 | ----- | ---- | ---- |
-| 74HC595 |  |  | 
-| 74LVC244 |  |  | 
-| BQ32000 |  |  | 
-| FT323R |  |  | 
+| 74HC595 | Registro de desplazamiento | TSSOP16 | 
+| 74LVC244 | Buffer de 3 estados | SO20W | 
+| BQ32000 | Reloj de tiempo real (RTC) | SOIC8 | 
+| FT323R | Convertidor USB a UART |  | 
 | HT12D | Decoder |  | 
 | HT12E | Encoder |  | 
 | IR4427 |  |  | 
