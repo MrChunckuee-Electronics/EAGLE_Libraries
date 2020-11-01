@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -175,7 +175,7 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 </package>
 <package name="UX60-MB-5S8">
 <description>&lt;b&gt;MINI USB Connector HI-SPEED Certified&lt;/b&gt; Metal Shield Dip Type With Positioning Post&lt;p&gt;
-Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
+Source: https://www.mouser.mx/datasheet/2/185/UX_02400008800_2d-1091769.pdf</description>
 <wire x1="0.0491" y1="3.8059" x2="8.9511" y2="3.8059" width="0.1016" layer="21"/>
 <wire x1="8.9511" y1="3.8059" x2="8.9511" y2="2.5442" width="0.1016" layer="21"/>
 <wire x1="8.9511" y1="2.5442" x2="8.5866" y2="2.1797" width="0.1016" layer="21" curve="-90.031447"/>
@@ -273,7 +273,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 </package>
 <package name="UX60-MB-5ST">
 <description>&lt;b&gt;MINI USB Connector HI-SPEED Certified&lt;/b&gt; Metal Shield SMT Type With Positioning Post&lt;p&gt;
-Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
+Source: https://www.mouser.mx/datasheet/2/185/UX_CL0240_0016_6_80_2d-1620384.pdf</description>
 <wire x1="-6.3509" y1="3.8059" x2="2.5511" y2="3.8059" width="0.1016" layer="21"/>
 <wire x1="2.5511" y1="3.8059" x2="2.5511" y2="2.5442" width="0.1016" layer="21"/>
 <wire x1="2.5511" y1="2.5442" x2="2.1866" y2="2.1797" width="0.1016" layer="21" curve="-90.031447"/>
@@ -1585,7 +1585,7 @@ Shttps://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;
 <pin name="5" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <pin name="6" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="MINI-USB">
+<symbol name="USB-MINI-B">
 <wire x1="-7.62" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
 <wire x1="2.54" y1="7.62" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -2122,13 +2122,13 @@ Shttps://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;
 </device>
 </devices>
 </deviceset>
-<deviceset name="MINI-USB" prefix="J" uservalue="yes">
-<description>MINI USB Conector</description>
+<deviceset name="UX60SC-MB" prefix="J">
+<description>Conector USB MINI tipo B</description>
 <gates>
-<gate name="G$1" symbol="MINI-USB" x="0" y="-2.54"/>
+<gate name="G$1" symbol="USB-MINI-B" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="UX60-MB-5S8">
+<device name="-5S8" package="UX60-MB-5S8">
 <connects>
 <connect gate="G$1" pin="1" pad="VCC"/>
 <connect gate="G$1" pin="2" pad="D-"/>
@@ -2139,7 +2139,7 @@ Shttps://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;
 <technology name=""/>
 </technologies>
 </device>
-<device name="UX60.MB-5ST" package="UX60-MB-5ST">
+<device name="-5ST" package="UX60-MB-5ST">
 <connects>
 <connect gate="G$1" pin="1" pad="VCC"/>
 <connect gate="G$1" pin="2" pad="D-"/>
