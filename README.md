@@ -33,9 +33,9 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 **EYR_Capacitores.lbr**
 | Nro. Parte| Descripcion| Package | 
 | ----- | ---- | ---- |
-| C-US | Capacitores | C080-043X113 | 
-|  | Capacitores | C102-054X133 | 
-|  | Capacitores | C200-062X024 | 
+| C-US | Capacitores grid 8 mm, outline 4.3 x 11.3 mm | C080-043X113 | 
+|  | Capacitores grid 10.2 mm, outline 5.4 x 13.3 mm | C102-054X133 | 
+|  | Capacitores grid 20mm, outline 6.2 x 24 mm | C200-062X024 | 
 | EEC-RG0V224HN | Supercondensador | | 
 | FM0V224ZF | Supercondensador | | 
  
