@@ -40,18 +40,20 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 | FM0V224ZF | Supercondensador | | 
  
 **EYR_CircuitosIntegrados.lbr**
-- 74HC595
-- 74LVC244
-- BQ32000
-- FT323R
-- Decoder HT12D
-- Encoder HT12E
-- IR4427
-- L293
-- L298 (PowerSO20)
-- MAX232
-- MCP6001 amplificador operacional
-- VIPPER22A
+| Nro. Parte| Descripcion| Package | 
+| ----- | ---- | ---- |
+| 74HC595 | Registro de desplazamiento | TSSOP16 | 
+| 74LVC244 | Buffer de 3 estados | SO20W | 
+| BQ32000 | Reloj de tiempo real (RTC) | SOIC8 | 
+| FT323R | Convertidor USB a UART |  | 
+| HT12D | Decoder |  | 
+| HT12E | Encoder |  | 
+| IR4427 |  |  | 
+| L293 |  |  | 
+| L298 |  | PowerSO20 | 
+| MAX232 |  |  | 
+| MCP6001 | Amplificador operacional |  | 
+| VIPPER22A |  |  | 
  
 **EYR_Conectores.lbr**
 - JACK AUDIO 3.5MM
