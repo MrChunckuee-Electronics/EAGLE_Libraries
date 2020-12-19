@@ -507,7 +507,7 @@ Source: https://www.mouser.mx/datasheet/2/916/BC817_SER-1598763.pdf</description
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SOT23" package="SOT23">
+<device name="" package="SOT23">
 <connects>
 <connect gate="G$1" pin="B" pad="1"/>
 <connect gate="G$1" pin="C" pad="3"/>
