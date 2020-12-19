@@ -451,7 +451,7 @@ Source: http://www.mouser.com/ds/2/597/mss1246-270708.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MSS1038" prefix="L" uservalue="yes">
+<deviceset name="MSS1038" prefix="L">
 <description>Coilcraft Inductor: http://www.coilcraft.com/pdfs/mss1038.pdf</description>
 <gates>
 <gate name="G$1" symbol="L-US" x="0" y="0"/>
@@ -579,7 +579,7 @@ Source: http://www.mouser.com/ds/2/597/mss1246-270708.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MSS1246" prefix="L" uservalue="yes">
+<deviceset name="MSS1246" prefix="L">
 <description>Coilcraft Inductor: http://www.mouser.com/ds/2/597/mss1246-270708.pdf</description>
 <gates>
 <gate name="G$1" symbol="L-US" x="0" y="0"/>
