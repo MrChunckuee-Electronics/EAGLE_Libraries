@@ -72,8 +72,9 @@
 <library>
 <description>Cristales de cuarzo&lt;p&gt;
 &lt;ul&gt;
-&lt;li&gt;01/03/2019: Se agredo AB26TRB-32.768KHZ-T
-&lt;li&gt;02/04/2019: Se agrego ECS-160-20-3x-TR
+&lt;li&gt;01/03/2019: Se agredo AB26TRB-32.768KHZ-T.
+&lt;li&gt;02/04/2019: Se agrego ECS-160-20-3x-TR.
+&lt;li&gt;16/12/2020: Se agrego FC-135-32.7680KA-A5.
 &lt;/ul&gt;
 
 Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
@@ -86,7 +87,7 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 &lt;b&gt;Blog: &lt;a href = "http://mrchunckuee.blogspot.com/"&gt; Electrónica &amp; Robótica&lt;/a&gt;&lt;/b&gt;&lt;p&gt;</description>
 <packages>
 <package name="AB26TRB">
-<description>&lt;b&gt;CRYSTAL&lt;/b&gt;</description>
+<description>&lt;b&gt;CRYSTAL AB26TRB-32.768KHZ-T&lt;/b&gt;</description>
 <wire x1="-1.297" y1="2.151" x2="1.397" y2="2.151" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="9.206" x2="1.524" y2="8.752" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-1.524" y1="8.752" x2="-1.27" y2="9.206" width="0.1524" layer="21" curve="-90"/>
@@ -126,6 +127,22 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <wire x1="-2.8" y1="2.05" x2="4.6" y2="2.05" width="0.1" layer="21"/>
 <wire x1="4.6" y1="2.05" x2="4.6" y2="1" width="0.1" layer="21"/>
 </package>
+<package name="FC-135-32.7680KA-A5">
+<description>&lt;b&gt;Cristal FC-135 32.7680KA-A5&lt;/b&gt; https://www.mouser.mx/datasheet/2/137/C-255_en-1649561.pdf</description>
+<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
+<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
+<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+</package>
 </packages>
 <symbols>
 <symbol name="Q">
@@ -146,7 +163,25 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="ECS-160-20-3X-TR" prefix="X">
+<description>Cristales 16MHz 20pF 50ppm -10C +70C --&gt;Mouser:  520-160-20-3XT</description>
+<gates>
+<gate name="G$1" symbol="Q" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ECS160203XENTR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="AB26TRB-32.768KHZ-T" prefix="X" uservalue="yes">
+<description>Cristales 32.768KHz https://www.mouser.mx/datasheet/2/3/ab26tr-30941.pdf</description>
 <gates>
 <gate name="G$1" symbol="Q" x="0" y="0"/>
 </gates>
@@ -162,13 +197,13 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 </device>
 </devices>
 </deviceset>
-<deviceset name="ECS-160-20-3X-TR" prefix="X">
-<description>Cristales 16MHz 20pF 50ppm -10C +70C --&gt;Mouse:  520-160-20-3XT</description>
+<deviceset name="FC-135-32.7680KA-A5" prefix="X" uservalue="yes">
+<description>Cristales MINI SMD XTL KHZ (3.3x1.5mm)+/-20PPM,-40 85C 12.5PF 3K TR</description>
 <gates>
 <gate name="G$1" symbol="Q" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ECS160203XENTR">
+<device name="" package="FC-135-32.7680KA-A5">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
