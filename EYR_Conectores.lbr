@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1516,10 +1516,10 @@ Shttps://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;
 <pad name="4" x="-1.27" y="1.27" drill="1.016" diameter="1.6764" shape="octagon"/>
 <pad name="6" x="1.27" y="1.27" drill="1.016" diameter="1.6764" shape="octagon"/>
 <pad name="8" x="3.81" y="1.27" drill="1.016" diameter="1.6764" shape="octagon"/>
-<text x="-6.158" y="-2.151" size="1.27" layer="21" ratio="10">1</text>
+<text x="-5.858" y="-1.851" size="0.8128" layer="21" ratio="10">1</text>
 <text x="-5.08" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="5.35" y="0.651" size="1.27" layer="21" ratio="10">8</text>
+<text x="5.35" y="0.851" size="0.8128" layer="21" ratio="10">8</text>
 <rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51"/>
 <rectangle x1="-4.064" y1="-1.524" x2="-3.556" y2="-1.016" layer="51"/>
 <rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51"/>
@@ -1557,9 +1557,9 @@ Shttps://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;
 <pad name="2" x="-2.54" y="1.27" drill="1.016" diameter="1.6764" shape="octagon"/>
 <pad name="4" x="0" y="1.27" drill="1.016" diameter="1.6764" shape="octagon"/>
 <pad name="6" x="2.54" y="1.27" drill="1.016" diameter="1.6764" shape="octagon"/>
-<text x="-4.915" y="-2.051" size="1.27" layer="21" ratio="10">1</text>
+<text x="-4.515" y="-1.851" size="0.8128" layer="21" ratio="10">1</text>
 <text x="-3.81" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="4.064" y="0.635" size="1.27" layer="21" ratio="10">6</text>
+<text x="4.064" y="0.835" size="0.8128" layer="21" ratio="10">6</text>
 <text x="-3.67" y="-3.991" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
 <rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
