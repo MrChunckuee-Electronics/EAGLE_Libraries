@@ -56,13 +56,23 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 | VIPPER22A |  |  | 
  
 **EYR_Conectores.lbr**
-- JACK AUDIO 3.5MM
-- Mini USB
-- RJ-12
-- Conector ICSP para PICs
-- FTDI conector de 6 pines 
-- Jack de alimentación PJ-202A
-- Jack de audio SJ1-3513N de 3.5mm
+| Nro. Parte| Descripcion| Package | 
+| ----- | ---- | ---- |
+| JACK AUDIO 3.5MM |  |  | 
+| Mini USB |  |  | 
+| RJ-12 |  |  | 
+| Conector ICSP para PICs |  |  | 
+| FTDI conector de 6 pines  |  |  | 
+| PJ-202A | Jack de alimentación |  | 
+| SJ1-3513N | Jack de audio de 3.5mm |  | 
+|  |  |  | 
+|  |  |  | 
+|  |  |  | 
+|  |  |  | 
+|  |  |  | 
+|  |  |  | 
+|  |  |  | 
+
 - Female Header 1x16
 - Pin Header 1x1
 - Pin Header de 2x2
@@ -80,6 +90,7 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - LED RGB de 5MM Through-Hole ánodo común
 - LED RGB de 5MM Through-Hole cátodo común
 - LED RGB SMD CLY6D-FKC-CK1N1D1BB7D3D3
+- Se agrego VS-4EGH06-M3, VSSB410S y ES1D
 
 **EYR_Displays.lbr**
 - Display alfanumerico LCD 2x16
