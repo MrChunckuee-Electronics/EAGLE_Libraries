@@ -77,7 +77,7 @@
 &lt;li&gt;15/01/2015: Creación de la librería, se agregaron las librerías para matrices de LEDs (GMM-12088ASB &amp; GMM-12088CSB) 
 &lt;li&gt;08/11/2016: Se agrego display alfanumerico LCD 2x16
 &lt;li&gt;08/04/2019: Pantalla OLED SSD1306
-&lt;li&gt;25/04/2021: Se agrego 7-SEG_ con la version de display grande de 56x38mm, tanto anodo como catodo.
+&lt;li&gt;25/04/2021: Se agrego 7-SEG_ con la version de display de 7 segmentos de 1.80inch (45.0 mm) height, tanto anodo como catodo.
 &lt;/ul&gt;
 
 Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
