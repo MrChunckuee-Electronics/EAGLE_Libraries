@@ -156,71 +156,47 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 | Nro. Parte| Descripcion| Package | 
 | ----- | ---- | ---- |
 | R-US_ | Con algunos tamaños usados que no estan en rcl |  |
-| R-TRIMM | - Se modifico los PADs de RTRIM3296X  - se tomo|  |
+| R-TRIMM | Se modifico los PADs de RTRIM3296X |  |
 |  |  |  |
 |  |  |  |
 
 **EYR_Sensores.lbr**
 | Nro. Parte| Descripcion| Package | 
 | ----- | ---- | ---- |
+| ACS712 |  |  |
+| ACS722 |  |  |
+| CNY70 |  |  |
+| GP2Y0D340K |  |  |
+|  | Fotorresistencia LDR |  |
+| LM35 | Sensor de temperatura |  |
+| PNA4602 |  |  |
+| QRD1114 |  |  |
+| HV7801 |  |  |
+| INA199B2 |  |  |
+| MPRLS0025PA00001A | Sensor de presión |  |
+| NTCALUG03A103HC | Termistor 10K |  |
+| NTCLE203E3103SB0 | Termistor 10K |  |
 |  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-- ACS712
-- CNY70
-- GP2Y0D340K
-- Fotorresistencia LDR
-- LM35
-- PNA4602
-- QRD1114
-- HV7801
-- INA199B2
-- Sensor de presión MPRLS0025PA00001A
-- Termistor 10K - NTCALUG03A103HC
-- Termistor 10K - NTCLE203E3103SB0
-
 
 **EYR_Switches.lbr**
 | Nro. Parte| Descripcion| Package | 
 | ----- | ---- | ---- |
+| PEC11R | Encoder rotativo |  |
+| SSSS91A600 | Switch |  |
+| JSX08001SAQNL | Switch |  |
 |  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-- Encoder rotativo PEC11R
-- Switch SSSS91A600
-- Switch JSX08001SAQNL
-
 
 **EYR_Transistores.lbr**
 | Nro. Parte| Descripcion| Package | 
 | ----- | ---- | ---- |
+| FDS2582 | Mosfet |  |
+| FDS3572 | Mosfet |  |
+| FDS4435 | Mosfet |  |
+| DMG2302UK-7 | Mosfet N |  |
+| IPB60R125C | Mosfet N |  |
+| IPD600N25N3 | Mosfet N |  |
+| BC817 | Transistor NPN |  |
 |  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-- Mosfet FDS2582
-- Mosfet FDS3572
-- Mosfet FDS4435
-- Mosfet N DMG2302UK-7
-- Mosfet N IPB60R125C
-- Mosfet N IPD600N25N3
-- Transistor NPN BC817
 
 ***
 Puedes seguirme en:
