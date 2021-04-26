@@ -99,7 +99,7 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 | GMM-12088ASB | Matriz de LEDs 8x8 (Ánodo) |  |
 | GMM-12088CSB | Matriz de LEDs 8x8 (Cátodo) |  |
 | SSD1306 | Pantalla OLED I2C |  |
-|  |  |  |
+| 7-SEG_ | Display de 7 segmentos de anodo y catodo comun de 1.8" |  |
 |  |  |  |
 
 **EYR_Inductores.lbr**
