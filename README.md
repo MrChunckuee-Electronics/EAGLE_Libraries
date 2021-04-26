@@ -30,6 +30,7 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 | ----- | ---- | ---- |
 | MSP430 LaunchPad | Plantillas para crear  boosterPacks | | 
 
+
 **EYR_Capacitores.lbr**
 | Nro. Parte| Descripcion| Package | 
 | ----- | ---- | ---- |
@@ -38,6 +39,7 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 |  | Capacitores grid 20mm, outline 6.2 x 24 mm | C200-062X024 | 
 | EEC-RG0V224HN | Supercondensador | | 
 | FM0V224ZF | Supercondensador | | 
+ 
  
 **EYR_CircuitosIntegrados.lbr**
 | Nro. Parte| Descripcion| Package | 
@@ -55,6 +57,7 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 | MCP6001 | Amplificador operacional |  | 
 | VIPPER22A |  |  | 
  
+ 
 **EYR_Conectores.lbr**
 | Nro. Parte| Descripcion| Package | 
 | ----- | ---- | ---- |
@@ -65,26 +68,21 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 | FTDI conector de 6 pines  |  |  | 
 | PJ-202A | Jack de alimentación |  | 
 | SJ1-3513N | Jack de audio de 3.5mm |  | 
-|  |  |  | 
-|  |  |  | 
-|  |  |  | 
-|  |  |  | 
-|  |  |  | 
-|  |  |  | 
-|  |  |  | 
+|  | Female Header 1x16 |  | 
+|  | Pin Header 1x1 |  | 
+|  | Pin Header de 2x2 |  | 
+|  | Pin Header 1x5 90° |  | 
+|  | Pin Header 1x26 |  | 
+| SJ | Jumper de 2 PADs |  | 
+| SJ2W | Jumper de 3 PADs |  | 
+|  | TestPAD |  |
+|  |  |  |
 
-- Female Header 1x16
-- Pin Header 1x1
-- Pin Header de 2x2
-- Pin Header 1x5 90°
-- Pin Header 1x26
-- SJ - Jumper de 2 PADs
-- SJ2W - Jumper de 3 PADs
-- TestPAD
 
 **EYR_Crystal.lbr**
 - B26TRB-32.768KHZ-T
 - ECS-160-20-3X-TR
+
 
 **EYR_Diodos.lbr**
 - LED RGB de 5MM Through-Hole ánodo común
@@ -92,11 +90,13 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - LED RGB SMD CLY6D-FKC-CK1N1D1BB7D3D3
 - Se agrego VS-4EGH06-M3, VSSB410S y ES1D
 
+
 **EYR_Displays.lbr**
 - Display alfanumerico LCD 2x16
 - GMM-12088ASB Matriz de LEDs 8x8 (Ánodo) 
 - GMM-12088CSB Matriz de LEDs 8x8 (Cátodo)
 - Pantalla OLED SSD1306 I2C
+
 
 **EYR_Inductores.lbr**
 - 15104C
@@ -108,6 +108,7 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - Transformador (En forma de bornera para PCB)
 - Inductor MSS1246
 
+
 **EYR_Microchip.lbr**
 - ATmega328PB 
 - PIC18F13K22
@@ -118,12 +119,14 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - PIC24FV32KA304
 - PIC32MX270F256D
  
+ 
 **EYR_Modulos.lbr**
 - Bluetooth HC-05
 - Bluetooth SG133-SZ (Chino)
 - Master-Chip (Plantilla base para los PICs de la PIC-TRAINER v2.0)
 - Receptor RF de 434MHz RLP434
 - Transmisor RF de 434MHz RLP434
+
 
 **EYR_Reguladores.lbr**
 - 7805
@@ -133,9 +136,11 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - TLV431
 - TPS5430
 
+
 **EYR_Resistores.lbr**
 - R-US_ con algunos tamaños usados que no estan en rcl
 - R-TRIMM para modificar los PADs de RTRIM3296X
+
 
 **EYR_Sensores.lbr**
 - ACS712
@@ -151,10 +156,12 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 - Termistor 10K - NTCALUG03A103HC
 - Termistor 10K - NTCLE203E3103SB0
 
+
 **EYR_Switches.lbr**
 - Encoder rotativo PEC11R
 - Switch SSSS91A600
 - Switch JSX08001SAQNL
+
 
 **EYR_Transistores.lbr**
 - Mosfet FDS2582
