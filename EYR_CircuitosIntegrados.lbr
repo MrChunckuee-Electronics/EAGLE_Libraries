@@ -1942,7 +1942,7 @@ Source: www.irf.com .. ir2520.pdf</description>
 <connect gate="P" pin="VCC" pad="16"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="HC"/>
 </technologies>
 </device>
 </devices>
