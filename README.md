@@ -101,7 +101,6 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 | LED-RGB_CC_TH | LED RGB de 5MM Through-Hole cátodo común |  |
 | VS-4EGH06-M3 |  |  |
 | VSSB410S |  |  |
-
 |  |  |  |
 |  |  |  |
 
@@ -113,7 +112,6 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 | GMM-12088ASB | Matriz de LEDs 8x8 (Ánodo) |  |
 | GMM-12088CSB | Matriz de LEDs 8x8 (Cátodo) |  |
 | LCD_2X16 | Display alfanumerico LCD 2x16 |  |
-
 |  |  |  |
 
 **EYR_Inductores.lbr**
@@ -213,7 +211,6 @@ Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas sa
 | FDS4435BZ | Mosfet |  |
 | IPB60R125C | Mosfet N |  |
 | IPD600N25N3 | Mosfet N |  |
-
 |  |  |  |
 
 ***
