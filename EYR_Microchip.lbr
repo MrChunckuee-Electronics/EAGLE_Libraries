@@ -1058,7 +1058,7 @@ package type TQ</description>
 <pin name="RA0/AN0/C12IN0-" x="-43.18" y="10.16" length="short"/>
 <pin name="RA1/AN1/C12IN1-" x="-43.18" y="7.62" length="short"/>
 <pin name="RA2/AN2/C2IN+/VREF-" x="-43.18" y="5.08" length="short"/>
-<pin name="RA3/AN3/CIIN+/VREF+" x="-43.18" y="2.54" length="short"/>
+<pin name="RA3/AN3/C1IN+/VREF+" x="-43.18" y="2.54" length="short"/>
 <pin name="RA4/C1OUT/SRQ/CCP5/T0CKI" x="-43.18" y="0" length="short"/>
 <pin name="RA5/AN4/C2OUT/SRNQ/HLVDIN/!SS!1" x="-43.18" y="-2.54" length="short"/>
 <pin name="VSS@1" x="-43.18" y="-20.32" length="short" direction="pwr"/>
@@ -1574,7 +1574,7 @@ package type TQ</description>
 <connect gate="G$1" pin="RA0/AN0/C12IN0-" pad="2"/>
 <connect gate="G$1" pin="RA1/AN1/C12IN1-" pad="3"/>
 <connect gate="G$1" pin="RA2/AN2/C2IN+/VREF-" pad="4"/>
-<connect gate="G$1" pin="RA3/AN3/CIIN+/VREF+" pad="5"/>
+<connect gate="G$1" pin="RA3/AN3/C1IN+/VREF+" pad="5"/>
 <connect gate="G$1" pin="RA4/C1OUT/SRQ/CCP5/T0CKI" pad="6"/>
 <connect gate="G$1" pin="RA5/AN4/C2OUT/SRNQ/HLVDIN/!SS!1" pad="7"/>
 <connect gate="G$1" pin="RA6/OSC2/CLKO" pad="10"/>
@@ -1609,7 +1609,7 @@ package type TQ</description>
 <connect gate="G$1" pin="RA0/AN0/C12IN0-" pad="2"/>
 <connect gate="G$1" pin="RA1/AN1/C12IN1-" pad="3"/>
 <connect gate="G$1" pin="RA2/AN2/C2IN+/VREF-" pad="4"/>
-<connect gate="G$1" pin="RA3/AN3/CIIN+/VREF+" pad="5"/>
+<connect gate="G$1" pin="RA3/AN3/C1IN+/VREF+" pad="5"/>
 <connect gate="G$1" pin="RA4/C1OUT/SRQ/CCP5/T0CKI" pad="6"/>
 <connect gate="G$1" pin="RA5/AN4/C2OUT/SRNQ/HLVDIN/!SS!1" pad="7"/>
 <connect gate="G$1" pin="RA6/OSC2/CLKO" pad="10"/>
@@ -1644,7 +1644,7 @@ package type TQ</description>
 <connect gate="G$1" pin="RA0/AN0/C12IN0-" pad="2"/>
 <connect gate="G$1" pin="RA1/AN1/C12IN1-" pad="3"/>
 <connect gate="G$1" pin="RA2/AN2/C2IN+/VREF-" pad="4"/>
-<connect gate="G$1" pin="RA3/AN3/CIIN+/VREF+" pad="5"/>
+<connect gate="G$1" pin="RA3/AN3/C1IN+/VREF+" pad="5"/>
 <connect gate="G$1" pin="RA4/C1OUT/SRQ/CCP5/T0CKI" pad="6"/>
 <connect gate="G$1" pin="RA5/AN4/C2OUT/SRNQ/HLVDIN/!SS!1" pad="7"/>
 <connect gate="G$1" pin="RA6/OSC2/CLKO" pad="10"/>
