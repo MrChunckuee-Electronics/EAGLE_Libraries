@@ -182,7 +182,7 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <vertex x="0.25" y="-0.75"/>
 </polygon>
 </package>
-<package name="SOIC-08">
+<package name="SOIC-08(POWER-PAD)">
 <description>&lt;B&gt;SO PowerPAD&lt;/B&gt;&lt;p&gt;
 8-Pin SOIC with Thermal Pad</description>
 <wire x1="1.9" y1="-2.4" x2="-1.9" y2="-2.4" width="0.2032" layer="21"/>
@@ -317,6 +317,38 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <pin name="VBIAS" x="12.7" y="0" length="short" rot="R180"/>
 <pin name="ENB" x="-12.7" y="0" length="short"/>
 </symbol>
+<symbol name="BD9876">
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="8.128" size="1.27" layer="95">&gt;NAME </text>
+<text x="-10.16" y="-9.398" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="LX" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="BST" x="-12.7" y="5.08" length="short"/>
+<pin name="SYNC" x="-12.7" y="-2.54" length="short"/>
+<pin name="GND" x="-12.7" y="-5.08" length="short"/>
+<pin name="FB" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="VIN" x="-12.7" y="2.54" length="short"/>
+<pin name="VC" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="EN" x="-12.7" y="0" length="short"/>
+</symbol>
+<symbol name="VP2140">
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="8.128" size="1.27" layer="95">&gt;NAME </text>
+<text x="-10.16" y="-9.398" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="LX" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="BS" x="-12.7" y="5.08" length="short"/>
+<pin name="ISET" x="-12.7" y="-2.54" length="short"/>
+<pin name="GND" x="-12.7" y="-5.08" length="short"/>
+<pin name="FB" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="VIN" x="-12.7" y="2.54" length="short"/>
+<pin name="COMP" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="EN" x="-12.7" y="0" length="short"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="UA78M05" prefix="IC">
@@ -392,7 +424,7 @@ adjustable voltage reference with specified thermal</description>
 <gate name="G$1" symbol="TPS5410" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOIC-08">
+<device name="" package="SOIC-08(POWER-PAD)">
 <connects>
 <connect gate="G$1" pin="BOOT" pad="7"/>
 <connect gate="G$1" pin="ENA" pad="5"/>
@@ -436,7 +468,7 @@ Regulador de 5 volts</description>
 <gate name="G$1" symbol="A8498" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOIC-08">
+<device name="" package="SOIC-08(POWER-PAD)">
 <connects>
 <connect gate="G$1" pin="BOOT" pad="1"/>
 <connect gate="G$1" pin="ENB" pad="2"/>
@@ -468,6 +500,40 @@ Regulador de 3.3 volts</description>
 <connect gate="G$1" pin="P$3" pad="3"/>
 <connect gate="G$1" pin="P$4" pad="4"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BD9876">
+<gates>
+<gate name="G$1" symbol="BD9876" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-08(POWER-PAD)">
+<connects>
+<connect gate="G$1" pin="BST" pad="7"/>
+<connect gate="G$1" pin="EN" pad="6"/>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="LX" pad="1"/>
+<connect gate="G$1" pin="SYNC" pad="5"/>
+<connect gate="G$1" pin="VC" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VP2140">
+<gates>
+<gate name="G$1" symbol="VP2140" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-08(POWER-PAD)">
 <technologies>
 <technology name=""/>
 </technologies>
