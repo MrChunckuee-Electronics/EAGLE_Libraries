@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.003125" unitdist="mic" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -96,6 +96,7 @@
 &lt;li&gt;06/06/2019: Se agrego modulos NRF24L01.
 &lt;li&gt;08/07/2021: Se agrego modulo bluetooth FSC-BT986 de feasycom.
 &lt;li&gt;21/07/2021: Se agrego modulo bluetooth FSC-BT986-A, el cual solo tiene los pines necesarios para establecer una comunicacion UART.
+&lt;li&gt;26/12/2023: Se agrego modulo DFPlayer Mini MP3 Player
 &lt;/ul&gt;
 
 Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
@@ -626,6 +627,53 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <wire x1="3.25" y1="8.23" x2="5.65" y2="10.73" width="0.127" layer="21"/>
 <wire x1="-5.81" y1="12.678" x2="-4.38" y2="12.678" width="0.6096" layer="21"/>
 </package>
+<package name="DFPLAYER">
+<pad name="4" x="-8.89" y="1.27" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="5" x="-8.89" y="-1.27" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="13" x="8.89" y="1.27" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="12" x="8.89" y="-1.27" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="6" x="-8.89" y="-3.81" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="-8.89" y="3.81" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="14" x="8.89" y="3.81" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="11" x="8.89" y="-3.81" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="-8.89" y="6.35" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="15" x="8.89" y="6.35" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="7" x="-8.89" y="-6.35" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="10" x="8.89" y="-6.35" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="1" x="-8.89" y="8.89" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="16" x="8.89" y="8.89" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="8" x="-8.89" y="-8.89" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="9" x="8.89" y="-8.89" drill="0.8" diameter="1.6764" shape="octagon"/>
+<wire x1="-10.25" y1="-10.25" x2="-10.25" y2="10.25" width="0.127" layer="21"/>
+<wire x1="-10.25" y1="10.25" x2="-1" y2="10.25" width="0.127" layer="21"/>
+<wire x1="1" y1="10.25" x2="10.25" y2="10.25" width="0.127" layer="21"/>
+<wire x1="10.25" y1="10.25" x2="10.25" y2="-10.25" width="0.127" layer="21"/>
+<text x="-9.525" y="-12.065" size="1.27" layer="27">VALUE</text>
+<wire x1="7.5" y1="-10.395" x2="7.5" y2="-10.25" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-10.25" x2="7.5" y2="3.81" width="0.127" layer="21"/>
+<wire x1="7.5" y1="3.81" x2="-7.5" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="3.81" x2="-7.5" y2="-9.5" width="0.127" layer="21"/>
+<text x="-5.385" y="4.68" size="1.27" layer="21" rot="SR0">DFPlayer Mini</text>
+<wire x1="7.5" y1="-10.395" x2="5.1" y2="-10.395" width="0.127" layer="21"/>
+<wire x1="-6.9" y1="-9.5" x2="-6.9" y2="-10.25" width="0.127" layer="21"/>
+<wire x1="-6.9" y1="-10.25" x2="-6.9" y2="-12.2" width="0.127" layer="21"/>
+<wire x1="-6.9" y1="-12.2" x2="-6.9" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-6.9" y1="-12.7" x2="5.1" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="5.1" y1="-12.7" x2="5.1" y2="-10.4" width="0.127" layer="21"/>
+<wire x1="5.1" y1="-10.4" x2="5.1" y2="-10.395" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="-9.5" x2="-6.9" y2="-9.5" width="0.127" layer="21"/>
+<wire x1="-6.9" y1="-9.5" x2="3.2" y2="-9.5" width="0.127" layer="21"/>
+<wire x1="3.2" y1="-9.5" x2="5.1" y2="-10.4" width="0.127" layer="21"/>
+<wire x1="10.25" y1="-10.25" x2="7.5" y2="-10.25" width="0.127" layer="21"/>
+<wire x1="-10.25" y1="-10.25" x2="-6.9" y2="-10.25" width="0.127" layer="21"/>
+<wire x1="-6.9" y1="-12.2" x2="-6.5" y2="-11.8" width="0.127" layer="21" curve="-90"/>
+<wire x1="-6.5" y1="-11.8" x2="4.6" y2="-11.8" width="0.127" layer="21"/>
+<wire x1="5.1" y1="-12.3" x2="4.6" y2="-11.8" width="0.127" layer="21" curve="90"/>
+<wire x1="-1" y1="10.25" x2="-1" y2="10.15" width="0.127" layer="21"/>
+<wire x1="-1" y1="10.15" x2="0" y2="9.15" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="9.15" x2="1" y2="10.15" width="0.127" layer="21" curve="90"/>
+<wire x1="1" y1="10.15" x2="1" y2="10.25" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RLP434">
@@ -964,6 +1012,28 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <wire x1="4.62" y1="15.38" x2="4.62" y2="19.38" width="0.8128" layer="94"/>
 <wire x1="4.62" y1="19.38" x2="7.62" y2="19.38" width="0.8128" layer="94"/>
 <wire x1="7.62" y1="19.38" x2="7.62" y2="11.38" width="0.8128" layer="94"/>
+</symbol>
+<symbol name="DFPLAYER">
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<pin name="VCC" x="-15.24" y="10.16" visible="pin" length="short" direction="pwr"/>
+<pin name="RX" x="-15.24" y="7.62" visible="pin" length="short" direction="in"/>
+<pin name="TX" x="-15.24" y="5.08" visible="pin" length="short" direction="out"/>
+<pin name="DAC_R" x="-15.24" y="2.54" visible="pin" length="short"/>
+<pin name="DAC_L" x="-15.24" y="0" visible="pin" length="short"/>
+<pin name="SPK_1" x="-15.24" y="-2.54" visible="pin" length="short" direction="out"/>
+<pin name="GND" x="-15.24" y="-5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="SPK_2" x="-15.24" y="-7.62" visible="pin" length="short" direction="out"/>
+<pin name="BUSY" x="15.24" y="10.16" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="USB-" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="USB+" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="ADKEY_2" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="ADKEY_1" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="IO_2" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND@1" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="IO_1" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1365,6 +1435,37 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <connect gate="G$1" pin="UART_RX" pad="2"/>
 <connect gate="G$1" pin="UART_TX" pad="1"/>
 <connect gate="G$1" pin="VDD_3V3" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DFPLAYER" prefix="M">
+<description>DFPlayer Mini MP3 Player https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299</description>
+<gates>
+<gate name="G$1" symbol="DFPLAYER" x="-10.16" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="DFPLAYER">
+<connects>
+<connect gate="G$1" pin="ADKEY_1" pad="12"/>
+<connect gate="G$1" pin="ADKEY_2" pad="13"/>
+<connect gate="G$1" pin="BUSY" pad="16"/>
+<connect gate="G$1" pin="DAC_L" pad="5"/>
+<connect gate="G$1" pin="DAC_R" pad="4"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="GND@1" pad="10"/>
+<connect gate="G$1" pin="IO_1" pad="9"/>
+<connect gate="G$1" pin="IO_2" pad="11"/>
+<connect gate="G$1" pin="RX" pad="2"/>
+<connect gate="G$1" pin="SPK_1" pad="6"/>
+<connect gate="G$1" pin="SPK_2" pad="8"/>
+<connect gate="G$1" pin="TX" pad="3"/>
+<connect gate="G$1" pin="USB+" pad="14"/>
+<connect gate="G$1" pin="USB-" pad="15"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
