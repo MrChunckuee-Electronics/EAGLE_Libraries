@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -648,12 +648,12 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <wire x1="-10.25" y1="10.25" x2="-1" y2="10.25" width="0.127" layer="21"/>
 <wire x1="1" y1="10.25" x2="10.25" y2="10.25" width="0.127" layer="21"/>
 <wire x1="10.25" y1="10.25" x2="10.25" y2="-10.25" width="0.127" layer="21"/>
-<text x="-9.525" y="-12.065" size="1.27" layer="27">VALUE</text>
+<text x="5.715" y="-12.065" size="1.27" layer="27">VALUE</text>
 <wire x1="7.5" y1="-10.395" x2="7.5" y2="-10.25" width="0.127" layer="21"/>
 <wire x1="7.5" y1="-10.25" x2="7.5" y2="3.81" width="0.127" layer="21"/>
 <wire x1="7.5" y1="3.81" x2="-7.5" y2="3.81" width="0.127" layer="21"/>
 <wire x1="-7.5" y1="3.81" x2="-7.5" y2="-9.5" width="0.127" layer="21"/>
-<text x="-5.385" y="4.68" size="1.27" layer="21" rot="SR0">DFPlayer Mini</text>
+<text x="-5.385" y="4.68" size="1.27" layer="51" rot="SR0">DFPlayer Mini</text>
 <wire x1="7.5" y1="-10.395" x2="5.1" y2="-10.395" width="0.127" layer="21"/>
 <wire x1="-6.9" y1="-9.5" x2="-6.9" y2="-10.25" width="0.127" layer="21"/>
 <wire x1="-6.9" y1="-10.25" x2="-6.9" y2="-12.2" width="0.127" layer="21"/>
@@ -673,6 +673,7 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <wire x1="-1" y1="10.15" x2="0" y2="9.15" width="0.127" layer="21" curve="90"/>
 <wire x1="0" y1="9.15" x2="1" y2="10.15" width="0.127" layer="21" curve="90"/>
 <wire x1="1" y1="10.15" x2="1" y2="10.25" width="0.127" layer="21"/>
+<text x="-10.16" y="10.795" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -1034,6 +1035,8 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <pin name="IO_2" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
 <pin name="GND@1" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
 <pin name="IO_1" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
+<text x="5.08" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-12.7" y="13.97" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
