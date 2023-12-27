@@ -492,6 +492,22 @@ Source: American Opto Plus LED A1801X G/W&lt;br&gt;
 <vertex x="10.4058" y="-1.2546"/>
 </polygon>
 </package>
+<package name="22-23-2041">
+<description>.100" (2.54mm) Center Header - 4 Pin</description>
+<wire x1="-5.08" y1="3.175" x2="5.08" y2="3.175" width="0.254" layer="21"/>
+<wire x1="5.08" y1="3.175" x2="5.08" y2="1.27" width="0.254" layer="21"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="5.08" y1="-3.175" x2="-5.08" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="-3.175" x2="-5.08" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-5.08" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DOTMATIX-64A">
@@ -1658,7 +1674,7 @@ Variant with I2C interface</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DISPLAY-OLED-128X64-I2C" prefix="M">
+<deviceset name="OLED-128X64-I2C" prefix="M">
 <description>&lt;b&gt;128x64 Dot Matrix OLED Module&lt;/b&gt; based on &lt;b&gt;SSD1306&lt;/b&gt; chip&lt;br /&gt;
 Variant with &lt;b&gt;I2C interface&lt;/b&gt;</description>
 <gates>
@@ -1676,7 +1692,18 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="NH" package="DISPLAY-OLED-128X64-I2C_NH">
+<device name="-NH" package="DISPLAY-OLED-128X64-I2C_NH">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SCL" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CON" package="22-23-2041">
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="SCL" pad="3"/>
