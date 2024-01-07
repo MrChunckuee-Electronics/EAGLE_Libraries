@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -62,7 +62,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -75,6 +75,7 @@
 &lt;li&gt;07/11/2016: Creación de la librería.
 &lt;li&gt;08/11/2016: Se agrego, UA78M05, UA78M33, NX1117, TLV431, TPS5430.
 &lt;li&gt;14/01/2018: Se agrego regulador step-down A8498
+&lt;li&gt; 30/12/2023: Se agrego XL6009/XL6019 Regulator Switching Current Boost / Buck-Boost / Inverting DC/DC Converter
 &lt;/ul&gt;
 
 Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
@@ -84,7 +85,7 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 &lt;hr&gt;
 &lt;b&gt;Author: &lt;/b&gt; Pedro Sánchez Ramírez (MrChunckuee)&lt;br&gt;
 &lt;b&gt;E-mail: &lt;/b&gt; mrchunckuee.psr@gmail.com&lt;br&gt;
-&lt;b&gt;Blog: &lt;a href = "http://mrchunckuee.blogspot.com/"&gt; Electrónica &amp; Robótica&lt;/a&gt;&lt;/b&gt;&lt;p&gt;</description>
+&lt;b&gt;Blog: &lt;a href = "http://mrchunckuee.blogspot.com/"&gt; MrChunckuee Electronics&lt;/a&gt;&lt;/b&gt;&lt;p&gt;</description>
 <packages>
 <package name="SOT223">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
@@ -219,6 +220,45 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <pad name="P$7" x="0.65" y="-1.89" drill="0.3" diameter="0.7"/>
 <pad name="P$8" x="-0.62" y="-1.89" drill="0.3" diameter="0.7"/>
 </package>
+<package name="TO263-5">
+<description>&lt;b&gt;TO-263&lt;/b&gt;</description>
+<wire x1="5.094" y1="7.165" x2="5.094" y2="-2.88" width="0.2032" layer="51"/>
+<wire x1="5.094" y1="-2.88" x2="-5.094" y2="-2.88" width="0.2032" layer="21"/>
+<wire x1="-5.094" y1="-2.88" x2="-5.094" y2="7.165" width="0.2032" layer="51"/>
+<wire x1="-5.094" y1="7.165" x2="5.094" y2="7.165" width="0.2032" layer="51"/>
+<wire x1="-5.105" y1="7.267" x2="-5.105" y2="7.678" width="0.2032" layer="51"/>
+<wire x1="-5.105" y1="7.678" x2="-3.378" y2="8.135" width="0.2032" layer="51"/>
+<wire x1="-3.378" y1="8.135" x2="3.378" y2="8.135" width="0.2032" layer="51"/>
+<wire x1="3.378" y1="8.135" x2="5.105" y2="7.678" width="0.2032" layer="51"/>
+<wire x1="5.105" y1="7.678" x2="5.105" y2="7.267" width="0.2032" layer="51"/>
+<wire x1="5.105" y1="7.267" x2="-5.105" y2="7.267" width="0.2032" layer="51"/>
+<smd name="6" x="0" y="2.54" dx="10.8" dy="10.41" layer="1"/>
+<smd name="1" x="-3.4036" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
+<smd name="2" x="-1.7018" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
+<smd name="3" x="0" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
+<smd name="4" x="1.7018" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
+<smd name="5" x="3.4036" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
+<text x="-5.588" y="-5.588" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.858" y="-5.588" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-3.8862" y1="-6.604" x2="-2.921" y2="-4.445" layer="51"/>
+<rectangle x1="-3.8862" y1="-4.4704" x2="-2.921" y2="-2.794" layer="21"/>
+<rectangle x1="-2.1844" y1="-6.604" x2="-1.2192" y2="-4.445" layer="51"/>
+<rectangle x1="-0.4826" y1="-6.604" x2="0.4826" y2="-4.445" layer="51"/>
+<rectangle x1="1.2192" y1="-6.604" x2="2.1844" y2="-4.445" layer="51"/>
+<rectangle x1="2.921" y1="-6.604" x2="3.8862" y2="-4.445" layer="51"/>
+<rectangle x1="-2.1844" y1="-4.4704" x2="-1.2192" y2="-2.794" layer="21"/>
+<rectangle x1="-0.4826" y1="-4.4704" x2="0.4826" y2="-2.794" layer="21"/>
+<rectangle x1="1.2192" y1="-4.4704" x2="2.1844" y2="-2.794" layer="21"/>
+<rectangle x1="2.921" y1="-4.4704" x2="3.8862" y2="-2.794" layer="21"/>
+<polygon width="0.2032" layer="51">
+<vertex x="-5.1054" y="7.267"/>
+<vertex x="-5.1054" y="7.6782"/>
+<vertex x="-3.3782" y="8.1354"/>
+<vertex x="3.3782" y="8.1354"/>
+<vertex x="5.1054" y="7.6782"/>
+<vertex x="5.1054" y="7.267"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="78XX">
@@ -348,6 +388,19 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <pin name="VIN" x="-12.7" y="2.54" length="short"/>
 <pin name="COMP" x="12.7" y="-5.08" length="short" rot="R180"/>
 <pin name="EN" x="-12.7" y="0" length="short"/>
+</symbol>
+<symbol name="XL60XX">
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="VIN" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="FB" x="12.7" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="EN" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="GND" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<pin name="SW" x="12.7" y="5.08" length="short" rot="R180"/>
+<text x="-10.16" y="8.89" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -534,6 +587,49 @@ Regulador de 3.3 volts</description>
 </gates>
 <devices>
 <device name="" package="SOIC-08(POWER-PAD)">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XL6009" prefix="IC">
+<description>&lt;b&gt;XL6009&lt;/b&gt; 400KHz 60V 4A Switching Current Boost / Buck-Boost / Inverting DC/DC Converter &lt;p&gt;
+
+http://www.kosmodrom.com.ua/pdf/XL6009E1.pdf</description>
+<gates>
+<gate name="G$1" symbol="XL60XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO263-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="2"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SW" pad="3 6"/>
+<connect gate="G$1" pin="VIN" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XL6019" prefix="IC">
+<description>&lt;b&gt;XL6019&lt;/b&gt; 180KHz 60V 5A Switching Current Boost / Buck-Boost / Inverting DC/DC Converter &lt;p&gt;
+http://www.kosmodrom.com.ua/pdf/XL6009E1.pdf</description>
+<gates>
+<gate name="G$1" symbol="XL60XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO263-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="2"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SW" pad="3 6"/>
+<connect gate="G$1" pin="VIN" pad="4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
