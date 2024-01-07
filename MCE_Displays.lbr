@@ -1674,7 +1674,7 @@ Variant with I2C interface</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="OLED-128X64-I2C" prefix="M">
+<deviceset name="OLED-128X64-I2C" prefix="M" uservalue="yes">
 <description>&lt;b&gt;128x64 Dot Matrix OLED Module&lt;/b&gt; based on &lt;b&gt;SSD1306&lt;/b&gt; chip&lt;br /&gt;
 Variant with &lt;b&gt;I2C interface&lt;/b&gt;</description>
 <gates>
