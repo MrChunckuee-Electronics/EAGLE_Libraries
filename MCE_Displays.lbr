@@ -1762,7 +1762,7 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="_2.42INCH" package="22-23-2041">
+<device name="_2.42INCH" package="SSD1309_128X64-I2C_2.42INCH(70X48MM)">
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="SCL" pad="3"/>
