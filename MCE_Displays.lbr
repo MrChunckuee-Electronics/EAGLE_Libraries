@@ -78,6 +78,7 @@
 &lt;li&gt;08/11/2016: Se agrego display alfanumerico LCD 2x16
 &lt;li&gt;08/04/2019: Pantalla OLED SSD1306
 &lt;li&gt;25/04/2021: Se agrego 7-SEG_ con la version de display de 7 segmentos de 1.80inch (45.0 mm) height, tanto anodo como catodo.
+&lt;li&gt;23/01/2024: Se agrego pantalla OLED SSD1309 de 128x64 pixeles de 2.42 pulgadas
 &lt;/ul&gt;
 
 Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
@@ -507,6 +508,53 @@ Source: American Opto Plus LED A1801X G/W&lt;br&gt;
 <pad name="4" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
 <text x="-5.08" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SSD1309_128X64-I2C_2.42INCH(70X48MM)">
+<description>Pantalla OLED I2C 128x64 Pixel SSD1309 Amarillo 2.42 pulgadas</description>
+<pad name="1" x="-3.81" y="20" drill="1" diameter="2" shape="square"/>
+<pad name="2" x="-1.27" y="20" drill="1" diameter="2"/>
+<pad name="3" x="1.27" y="20" drill="1" diameter="2"/>
+<pad name="4" x="3.81" y="20" drill="1" diameter="2"/>
+<hole x="-32.5" y="20.5" drill="3.22"/>
+<text x="-34.941021875" y="23.4542125" size="1.27" layer="25" rot="R180" align="top-right">&gt;NAME</text>
+<text x="27.97979375" y="-25.842228125" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<hole x="32.5" y="20.5" drill="3.22"/>
+<hole x="32.5" y="-22.5" drill="3.22"/>
+<hole x="-32.5" y="-22.5" drill="3.22"/>
+<text x="-6.9" y="21.3" size="1.016" layer="51">GND</text>
+<text x="-3.1" y="21.3" size="1.016" layer="51">VCC</text>
+<text x="0.5" y="21.3" size="1.016" layer="51">SCL</text>
+<text x="3.9" y="21.3" size="1.016" layer="51">SDA</text>
+<wire x1="33" y1="23" x2="-33" y2="23" width="0.127" layer="21"/>
+<wire x1="-33" y1="23" x2="-35" y2="21" width="0.127" layer="21" curve="90"/>
+<wire x1="-35" y1="21" x2="-35" y2="-23" width="0.127" layer="21"/>
+<wire x1="-35" y1="-23" x2="-33" y2="-25" width="0.127" layer="21" curve="90"/>
+<wire x1="-33" y1="-25" x2="-13" y2="-25" width="0.127" layer="21"/>
+<wire x1="-13" y1="-25" x2="-11" y2="-23" width="0.127" layer="21" curve="90"/>
+<wire x1="-11" y1="-23" x2="-11" y2="-21" width="0.127" layer="21"/>
+<wire x1="13" y1="-25" x2="33" y2="-25" width="0.127" layer="21"/>
+<wire x1="33" y1="-25" x2="35" y2="-23" width="0.127" layer="21" curve="90"/>
+<wire x1="35" y1="-23" x2="35" y2="21" width="0.127" layer="21"/>
+<wire x1="35" y1="21" x2="33" y2="23" width="0.127" layer="21" curve="90"/>
+<wire x1="13" y1="-25" x2="11" y2="-23" width="0.127" layer="21" curve="-90"/>
+<wire x1="11" y1="-23" x2="11" y2="-21" width="0.127" layer="21"/>
+<wire x1="-30" y1="18" x2="-30" y2="-21" width="0.127" layer="21"/>
+<wire x1="-30" y1="-21" x2="-11" y2="-21" width="0.127" layer="21"/>
+<wire x1="-11" y1="-21" x2="-6" y2="-21" width="0.127" layer="21"/>
+<wire x1="-6" y1="-21" x2="6" y2="-21" width="0.127" layer="21"/>
+<wire x1="6" y1="-21" x2="11" y2="-21" width="0.127" layer="21"/>
+<wire x1="11" y1="-21" x2="30" y2="-21" width="0.127" layer="21"/>
+<wire x1="30" y1="-21" x2="30" y2="18" width="0.127" layer="21"/>
+<wire x1="30" y1="18" x2="-30" y2="18" width="0.127" layer="21"/>
+<wire x1="6" y1="-21" x2="6" y2="-22" width="0.127" layer="21"/>
+<wire x1="6" y1="-22" x2="4" y2="-24" width="0.127" layer="21" curve="-90"/>
+<wire x1="4" y1="-24" x2="-4" y2="-24" width="0.127" layer="21"/>
+<wire x1="-4" y1="-24" x2="-6" y2="-22" width="0.127" layer="21" curve="-90"/>
+<wire x1="-6" y1="-22" x2="-6" y2="-21" width="0.127" layer="21"/>
+<wire x1="27" y1="-13" x2="27" y2="16" width="0.127" layer="21"/>
+<wire x1="27" y1="16" x2="-27" y2="16" width="0.127" layer="21"/>
+<wire x1="-27" y1="16" x2="-27" y2="-13" width="0.127" layer="21"/>
+<wire x1="-27" y1="-13" x2="27" y2="-13" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1675,7 +1723,7 @@ Variant with I2C interface</description>
 </devices>
 </deviceset>
 <deviceset name="OLED-128X64-I2C" prefix="M" uservalue="yes">
-<description>&lt;b&gt;128x64 Dot Matrix OLED Module&lt;/b&gt; based on &lt;b&gt;SSD1306&lt;/b&gt; chip&lt;br /&gt;
+<description>&lt;b&gt;128x64 Dot Matrix OLED Module&lt;/b&gt; based on &lt;b&gt;SSD1306/SSD1309&lt;/b&gt; chip&lt;br /&gt;
 Variant with &lt;b&gt;I2C interface&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="DISPLAY-OLED-128X64-I2C" x="0" y="0"/>
@@ -1704,6 +1752,17 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;</description>
 </technologies>
 </device>
 <device name="-CON" package="22-23-2041">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SCL" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_2.42INCH" package="22-23-2041">
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="SCL" pad="3"/>
