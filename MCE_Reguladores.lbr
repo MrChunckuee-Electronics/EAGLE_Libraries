@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -76,6 +76,7 @@
 &lt;li&gt;08/11/2016: Se agrego, UA78M05, UA78M33, NX1117, TLV431, TPS5430.
 &lt;li&gt;14/01/2018: Se agrego regulador step-down A8498
 &lt;li&gt; 30/12/2023: Se agrego XL6009/XL6019 Regulator Switching Current Boost / Buck-Boost / Inverting DC/DC Converter
+&lt;li&gt; 30/12/2023: Se agrego regulador lineal AMS1117-3.3 (Salia de 3.3 volts)
 &lt;/ul&gt;
 
 Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
@@ -402,6 +403,22 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <text x="-10.16" y="8.89" size="1.27" layer="95">&gt;NAME</text>
 <text x="2.54" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="AMS1117">
+<description>AMS1117</description>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-6.9502" y="-0.7115" size="1.4224" layer="95">VIN</text>
+<text x="-2.192" y="-4.4917" size="1.4224" layer="95">GND</text>
+<text x="1.641" y="-0.7072" size="1.4224" layer="95">VOUT</text>
+<text x="-7.6977" y="5.905" size="1.4224" layer="95">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.4224" layer="95">&gt;VALUE</text>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="in" rot="R90"/>
+<pin name="VOUT" x="10.16" y="-2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="VIN" x="-10.16" y="0" visible="pad" length="short" direction="pwr"/>
+<pin name="VOUT_P" x="10.16" y="2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="UA78M05" prefix="IC">
@@ -629,6 +646,26 @@ http://www.kosmodrom.com.ua/pdf/XL6009E1.pdf</description>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="SW" pad="3 6"/>
 <connect gate="G$1" pin="VIN" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AMS1117" prefix="IC">
+<description>&lt;b&gt;AMS1117&lt;/b&gt; LowDropout Voltage regulator &lt;p&gt;
+https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Advanced-Monolithic-Systems-AMS1117-3-3_C6186.html</description>
+<gates>
+<gate name="G$1" symbol="AMS1117" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-3.3" package="SOT223">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
+<connect gate="G$1" pin="VOUT" pad="2"/>
+<connect gate="G$1" pin="VOUT_P" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
