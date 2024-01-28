@@ -1,7 +1,7 @@
 # Eagle Libraries
 ***
 
-Librerias creadas y editadas por MrChunckuee a conveniencia propia, si deseas saber mas a detalle te invito a visitar [**E&R by MrChuckuee**](http://mrchunckuee.blogspot.mx/p/eagle.html) 
+Librerias creadas y editadas por MrChunckuee a conveniencia propia, regularmente son las que utilizo en mis proyectos, si deseas saber mas a detalle sobre cada libreria o el contenido de ellas te invito a visitar mi blog [**MrChuckuee Electronics**](http://mrchunckuee.blogspot.mx/p/eagle.html) 
 
 <p align="center">
   <img src="https://2.bp.blogspot.com/-kAmCcFyFx9A/VCYkIJuVzQI/AAAAAAAAB0Y/Xs1uNUrpw6M/s1600/eagle.jpg)"/>
