@@ -1533,11 +1533,12 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 </devices>
 </deviceset>
 <deviceset name="MPU6050" prefix="M">
+<description>IMU 6 Grados de libertad - Giroscopio de 3-ejes y acelerómetro de 3-ejes</description>
 <gates>
 <gate name="G$1" symbol="MPU6050" x="-2.54" y="5.08"/>
 </gates>
 <devices>
-<device name="MPU6050" package="MPU6050">
+<device name="" package="MPU6050">
 <connects>
 <connect gate="G$1" pin="ADO" pad="ADO"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
