@@ -511,27 +511,6 @@ adjustable voltage reference with specified thermal</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NX1117C50Z" prefix="IC">
-<description>NX1117C; NX1117CE series &lt;p&gt;
-Low-dropout linear regulators &lt;p&gt;
-Regulador de 5 volts</description>
-<gates>
-<gate name="G$1" symbol="NX1117" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT223">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
-<connect gate="G$1" pin="P$4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="A8498" prefix="IC">
 <description>A8498 - Wide Input Voltage 3.0 A Step Down Regulator</description>
 <gates>
@@ -555,7 +534,7 @@ Regulador de 5 volts</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NX1117C33Z" prefix="IC">
+<deviceset name="NX1117C" prefix="IC">
 <description>NX1117C; NX1117CE series &lt;p&gt;
 Low-dropout linear regulators &lt;p&gt;
 Regulador de 3.3 volts</description>
@@ -563,7 +542,18 @@ Regulador de 3.3 volts</description>
 <gate name="G$1" symbol="NX1117" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT223">
+<device name="33Z" package="SOT223">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="50Z" package="SOT223">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
