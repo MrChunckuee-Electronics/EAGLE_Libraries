@@ -90,6 +90,7 @@
 <library>
 <description>Diferentes modulos comerciales.&lt;p&gt;
 &lt;ul&gt;
+&lt;li&gt;15/01/2015: Creación de la librería, se agrego la libreria para el MSP430 LauchPad 
 &lt;li&gt;06/03/2016: Se agrego TLP434 y RLP434.
 &lt;li&gt;08/11/2016: Se agrego modulo bluetooth HC-05 y SG133-SZ, tambien MASTER-CHIP.
 &lt;li&gt;12/10/2018: Se actualizo simbolo y footprint de RLP434.
@@ -707,6 +708,121 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <wire x1="4.42" y1="-6.12" x2="4.82" y2="-6.12" width="0.127" layer="21"/>
 <wire x1="4.82" y1="-6.12" x2="4.92" y2="-6.52" width="0.127" layer="21"/>
 </package>
+<package name="MSP430-20P">
+<description>&lt;b&gt;MSP430 Booster Pack sin pines GND &amp; VCC&lt;/b&gt;</description>
+<pad name="1" x="-11.43" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-8.89" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="-6.35" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="-3.81" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="-1.27" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="6" x="1.27" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="7" x="3.81" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="8" x="6.35" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="9" x="8.89" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="10" x="11.43" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="11" x="11.43" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="12" x="8.89" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="13" x="6.35" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="14" x="3.81" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="15" x="1.27" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="16" x="-1.27" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="17" x="-3.81" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="18" x="-6.35" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="19" x="-8.89" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="20" x="-11.43" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<text x="-2.54" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-11.684" y="-20.574" size="1.27" layer="21" ratio="10">1</text>
+<text x="-10.541" y="20.701" size="1.27" layer="21" ratio="10" rot="R180">20</text>
+<text x="10.795" y="-20.701" size="1.27" layer="21" ratio="10">10</text>
+<rectangle x1="-11.7602" y1="-23.1902" x2="-11.0998" y2="-22.5298" layer="51"/>
+<rectangle x1="11.0998" y1="22.5298" x2="11.7602" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="-9.2202" y1="-23.1902" x2="-8.5598" y2="-22.5298" layer="51"/>
+<rectangle x1="-6.6802" y1="-23.1902" x2="-6.0198" y2="-22.5298" layer="51"/>
+<rectangle x1="-4.1402" y1="-23.1902" x2="-3.4798" y2="-22.5298" layer="51"/>
+<rectangle x1="-1.6002" y1="-23.1902" x2="-0.9398" y2="-22.5298" layer="51"/>
+<rectangle x1="8.5598" y1="22.5298" x2="9.2202" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="6.0198" y1="22.5298" x2="6.6802" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="3.4798" y1="22.5298" x2="4.1402" y2="23.1902" layer="51" rot="R270"/>
+<rectangle x1="0.9398" y1="22.5298" x2="1.6002" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="0.9398" y1="-23.1902" x2="1.6002" y2="-22.5298" layer="51"/>
+<rectangle x1="3.4798" y1="-23.1902" x2="4.1402" y2="-22.5298" layer="51"/>
+<rectangle x1="6.0198" y1="-23.1902" x2="6.6802" y2="-22.5298" layer="51"/>
+<rectangle x1="8.5598" y1="-23.1902" x2="9.2202" y2="-22.5298" layer="51"/>
+<rectangle x1="11.0998" y1="-23.1902" x2="11.7602" y2="-22.5298" layer="51"/>
+<rectangle x1="-1.6002" y1="22.5298" x2="-0.9398" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="-4.1402" y1="22.5298" x2="-3.4798" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="-6.6802" y1="22.5298" x2="-6.0198" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="-9.2202" y1="22.5298" x2="-8.5598" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="-11.7602" y1="22.5298" x2="-11.0998" y2="23.1902" layer="51" rot="R180"/>
+<text x="12.319" y="20.701" size="1.27" layer="21" ratio="10" rot="R180">11</text>
+<text x="-2.54" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-20.32" y1="25.4" x2="-20.32" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="-20.32" y1="-25.4" x2="15.24" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="15.24" y1="25.4" x2="-20.32" y2="25.4" width="0.127" layer="21"/>
+<wire x1="15.24" y1="25.4" x2="15.24" y2="-25.4" width="0.127" layer="21" style="shortdash"/>
+</package>
+<package name="MSP430-23P">
+<description>&lt;b&gt;MSP430 Booster Pack con pines GND &amp; VCC&lt;/b&gt;</description>
+<pad name="1" x="-11.43" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-8.89" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="-6.35" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="-3.81" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="-1.27" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="6" x="1.27" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="7" x="3.81" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="8" x="6.35" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="9" x="8.89" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="10" x="11.43" y="-22.86" drill="1.016" shape="long" rot="R90"/>
+<pad name="11" x="11.43" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="12" x="8.89" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="13" x="6.35" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="14" x="3.81" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="15" x="1.27" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="16" x="-1.27" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="17" x="-3.81" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="18" x="-6.35" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="19" x="-8.89" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="20" x="-11.43" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<text x="2.54" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-11.684" y="-20.574" size="1.27" layer="21" ratio="10">1</text>
+<text x="-10.541" y="20.701" size="1.27" layer="21" ratio="10" rot="R180">20</text>
+<text x="10.795" y="-20.701" size="1.27" layer="21" ratio="10">10</text>
+<rectangle x1="-11.7602" y1="-23.1902" x2="-11.0998" y2="-22.5298" layer="51"/>
+<rectangle x1="11.0998" y1="22.5298" x2="11.7602" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="-9.2202" y1="-23.1902" x2="-8.5598" y2="-22.5298" layer="51"/>
+<rectangle x1="-6.6802" y1="-23.1902" x2="-6.0198" y2="-22.5298" layer="51"/>
+<rectangle x1="-4.1402" y1="-23.1902" x2="-3.4798" y2="-22.5298" layer="51"/>
+<rectangle x1="-1.6002" y1="-23.1902" x2="-0.9398" y2="-22.5298" layer="51"/>
+<rectangle x1="8.5598" y1="22.5298" x2="9.2202" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="6.0198" y1="22.5298" x2="6.6802" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="3.4798" y1="22.5298" x2="4.1402" y2="23.1902" layer="51" rot="R270"/>
+<rectangle x1="0.9398" y1="22.5298" x2="1.6002" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="0.9398" y1="-23.1902" x2="1.6002" y2="-22.5298" layer="51"/>
+<rectangle x1="3.4798" y1="-23.1902" x2="4.1402" y2="-22.5298" layer="51"/>
+<rectangle x1="6.0198" y1="-23.1902" x2="6.6802" y2="-22.5298" layer="51"/>
+<rectangle x1="8.5598" y1="-23.1902" x2="9.2202" y2="-22.5298" layer="51"/>
+<rectangle x1="11.0998" y1="-23.1902" x2="11.7602" y2="-22.5298" layer="51"/>
+<rectangle x1="-1.6002" y1="22.5298" x2="-0.9398" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="-4.1402" y1="22.5298" x2="-3.4798" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="-6.6802" y1="22.5298" x2="-6.0198" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="-9.2202" y1="22.5298" x2="-8.5598" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="-11.7602" y1="22.5298" x2="-11.0998" y2="23.1902" layer="51" rot="R180"/>
+<text x="12.319" y="20.701" size="1.27" layer="21" ratio="10" rot="R180">11</text>
+<text x="2.54" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<pad name="21" x="21.59" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="22" x="19.05" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<pad name="23" x="16.51" y="22.86" drill="1.016" shape="long" rot="R270"/>
+<rectangle x1="21.2598" y1="22.5298" x2="21.9202" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="16.1798" y1="22.5298" x2="16.8402" y2="23.1902" layer="51" rot="R180"/>
+<rectangle x1="18.7198" y1="22.5298" x2="19.3802" y2="23.1902" layer="51" rot="R180"/>
+<wire x1="-20.32" y1="25.4" x2="-20.32" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="-20.32" y1="-25.4" x2="13.97" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="13.97" y1="-25.4" x2="22.86" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="22.86" y1="-25.4" x2="22.86" y2="25.4" width="0.127" layer="21"/>
+<wire x1="22.86" y1="25.4" x2="13.97" y2="25.4" width="0.127" layer="21"/>
+<wire x1="13.97" y1="25.4" x2="-20.32" y2="25.4" width="0.127" layer="21"/>
+<wire x1="13.97" y1="25.4" x2="13.97" y2="-25.4" width="0.127" layer="21" style="shortdash"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RLP434">
@@ -1093,6 +1209,79 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <text x="0" y="2.54" size="1.778" layer="94">y</text>
 <text x="-15.24" y="8.255" size="1.27" layer="95">&gt;NAME</text>
 <text x="8.89" y="-12.065" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MSP430-20P">
+<description>&lt;b&gt;MSP430 Booster Pack sin pines GND &amp; VCC&lt;/b&gt;</description>
+<text x="-11.43" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-11.43" y="13.462" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="12.7" width="0.4064" layer="94"/>
+<pin name="VCC" x="-17.78" y="10.16" length="middle" direction="pwr"/>
+<pin name="P1.0(LED1)" x="-17.78" y="7.62" length="middle"/>
+<pin name="P1.1(TXD)" x="-17.78" y="5.08" length="middle"/>
+<pin name="P1.2(RXD)" x="-17.78" y="2.54" length="middle"/>
+<pin name="P1.3(S2)" x="-17.78" y="0" length="middle"/>
+<pin name="P1.4" x="-17.78" y="-2.54" length="middle"/>
+<pin name="P1.5" x="-17.78" y="-5.08" length="middle"/>
+<pin name="P2.0" x="-17.78" y="-7.62" length="middle"/>
+<pin name="P2.1" x="-17.78" y="-10.16" length="middle"/>
+<pin name="P2.2" x="-17.78" y="-12.7" length="middle"/>
+<pin name="P2.3" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="P2.4" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="P2.5" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="(LED2)P1.6" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="P1.7" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="(S1)RST" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="TEST" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="XOUT" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="XIN" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="GND" x="17.78" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-7.62" y1="12.7" x2="-12.7" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-12.7" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="7.62" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="-2.54" y2="12.7" width="0.4064" layer="94" style="shortdash"/>
+<wire x1="2.54" y1="12.7" x2="7.62" y2="12.7" width="0.4064" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-15.24" x2="-2.54" y2="-15.24" width="0.4064" layer="94" style="shortdash"/>
+<wire x1="2.54" y1="-15.24" x2="7.62" y2="-15.24" width="0.4064" layer="94" style="shortdash"/>
+</symbol>
+<symbol name="MSP430-23P">
+<description>&lt;b&gt;MSP430 Booster Pack con pines GND &amp; VCC&lt;/b&gt;</description>
+<text x="-11.43" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-11.43" y="13.462" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-25.4" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-25.4" x2="-12.7" y2="12.7" width="0.4064" layer="94"/>
+<pin name="VCC" x="-17.78" y="10.16" length="middle" direction="pwr"/>
+<pin name="P1.0(LED1)" x="-17.78" y="7.62" length="middle"/>
+<pin name="P1.1(TXD)" x="-17.78" y="5.08" length="middle"/>
+<pin name="P1.2(RXD)" x="-17.78" y="2.54" length="middle"/>
+<pin name="P1.3(S2)" x="-17.78" y="0" length="middle"/>
+<pin name="P1.4" x="-17.78" y="-2.54" length="middle"/>
+<pin name="P1.5" x="-17.78" y="-5.08" length="middle"/>
+<pin name="P2.0" x="-17.78" y="-7.62" length="middle"/>
+<pin name="P2.1" x="-17.78" y="-10.16" length="middle"/>
+<pin name="P2.2" x="-17.78" y="-12.7" length="middle"/>
+<pin name="P2.3" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="P2.4" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="P2.5" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="(LED2)P1.6" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="P1.7" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="(S1)RST" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="TEST" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="XOUT" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="XIN" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="GND" x="17.78" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-7.62" y1="12.7" x2="-12.7" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="-25.4" x2="-12.7" y2="-25.4" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-25.4" x2="7.62" y2="-25.4" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="-2.54" y2="12.7" width="0.4064" layer="94" style="shortdash"/>
+<wire x1="2.54" y1="12.7" x2="7.62" y2="12.7" width="0.4064" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-25.4" x2="-2.54" y2="-25.4" width="0.4064" layer="94" style="shortdash"/>
+<wire x1="2.54" y1="-25.4" x2="7.62" y2="-25.4" width="0.4064" layer="94" style="shortdash"/>
+<pin name="GND@1" x="17.78" y="-17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND@2" x="17.78" y="-20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCC@1" x="17.78" y="-22.86" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1548,6 +1737,79 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 <connect gate="G$1" pin="XCL" pad="XCL"/>
 <connect gate="G$1" pin="XDA" pad="XDA"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MSP430-20P" prefix="U" uservalue="yes">
+<description>&lt;b&gt;MSP430 Booster Pack sin pines GND &amp; VCC&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MSP430-20P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MSP430-20P">
+<connects>
+<connect gate="G$1" pin="(LED2)P1.6" pad="14"/>
+<connect gate="G$1" pin="(S1)RST" pad="16"/>
+<connect gate="G$1" pin="GND" pad="20"/>
+<connect gate="G$1" pin="P1.0(LED1)" pad="2"/>
+<connect gate="G$1" pin="P1.1(TXD)" pad="3"/>
+<connect gate="G$1" pin="P1.2(RXD)" pad="4"/>
+<connect gate="G$1" pin="P1.3(S2)" pad="5"/>
+<connect gate="G$1" pin="P1.4" pad="6"/>
+<connect gate="G$1" pin="P1.5" pad="7"/>
+<connect gate="G$1" pin="P1.7" pad="15"/>
+<connect gate="G$1" pin="P2.0" pad="8"/>
+<connect gate="G$1" pin="P2.1" pad="9"/>
+<connect gate="G$1" pin="P2.2" pad="10"/>
+<connect gate="G$1" pin="P2.3" pad="11"/>
+<connect gate="G$1" pin="P2.4" pad="12"/>
+<connect gate="G$1" pin="P2.5" pad="13"/>
+<connect gate="G$1" pin="TEST" pad="17"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="XIN" pad="19"/>
+<connect gate="G$1" pin="XOUT" pad="18"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MSP430-23P" prefix="U" uservalue="yes">
+<description>&lt;b&gt;MSP430 Booster Pack con pines GND &amp; VCC&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MSP430-23P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MSP430-23P">
+<connects>
+<connect gate="G$1" pin="(LED2)P1.6" pad="14"/>
+<connect gate="G$1" pin="(S1)RST" pad="16"/>
+<connect gate="G$1" pin="GND" pad="20"/>
+<connect gate="G$1" pin="GND@1" pad="23"/>
+<connect gate="G$1" pin="GND@2" pad="22"/>
+<connect gate="G$1" pin="P1.0(LED1)" pad="2"/>
+<connect gate="G$1" pin="P1.1(TXD)" pad="3"/>
+<connect gate="G$1" pin="P1.2(RXD)" pad="4"/>
+<connect gate="G$1" pin="P1.3(S2)" pad="5"/>
+<connect gate="G$1" pin="P1.4" pad="6"/>
+<connect gate="G$1" pin="P1.5" pad="7"/>
+<connect gate="G$1" pin="P1.7" pad="15"/>
+<connect gate="G$1" pin="P2.0" pad="8"/>
+<connect gate="G$1" pin="P2.1" pad="9"/>
+<connect gate="G$1" pin="P2.2" pad="10"/>
+<connect gate="G$1" pin="P2.3" pad="11"/>
+<connect gate="G$1" pin="P2.4" pad="12"/>
+<connect gate="G$1" pin="P2.5" pad="13"/>
+<connect gate="G$1" pin="TEST" pad="17"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VCC@1" pad="21"/>
+<connect gate="G$1" pin="XIN" pad="19"/>
+<connect gate="G$1" pin="XOUT" pad="18"/>
 </connects>
 <technologies>
 <technology name=""/>
