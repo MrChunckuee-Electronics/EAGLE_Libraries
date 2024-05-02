@@ -556,6 +556,31 @@ Source: American Opto Plus LED A1801X G/W&lt;br&gt;
 <wire x1="-27" y1="16" x2="-27" y2="-13" width="0.127" layer="21"/>
 <wire x1="-27" y1="-13" x2="27" y2="-13" width="0.127" layer="21"/>
 </package>
+<package name="SSD1309_PERSONALV1">
+<pad name="1" x="-3.81" y="6.03" drill="1" diameter="2" shape="square"/>
+<pad name="2" x="-1.27" y="6.03" drill="1" diameter="2"/>
+<pad name="3" x="1.27" y="6.03" drill="1" diameter="2"/>
+<pad name="4" x="3.81" y="6.03" drill="1" diameter="2"/>
+<hole x="-32.5" y="6.53" drill="3.22"/>
+<text x="-34.941021875" y="9.4842125" size="1.27" layer="25" rot="R180" align="top-right">&gt;NAME</text>
+<text x="16.54979375" y="-0.442228125" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<hole x="32.5" y="6.53" drill="3.22"/>
+<text x="-6.9" y="7.33" size="1.016" layer="51">GND</text>
+<text x="-3.1" y="7.33" size="1.016" layer="51">VCC</text>
+<text x="0.5" y="7.33" size="1.016" layer="51">SCL</text>
+<text x="3.9" y="7.33" size="1.016" layer="51">SDA</text>
+<wire x1="33" y1="9.03" x2="-33" y2="9.03" width="0.127" layer="21"/>
+<wire x1="-33" y1="9.03" x2="-35" y2="7.03" width="0.127" layer="21" curve="90"/>
+<wire x1="-35" y1="7.03" x2="-35" y2="-3.95" width="0.127" layer="21"/>
+<wire x1="35" y1="-3.95" x2="35" y2="7.03" width="0.127" layer="21"/>
+<wire x1="35" y1="7.03" x2="33" y2="9.03" width="0.127" layer="21" curve="90"/>
+<wire x1="-30" y1="4.03" x2="-30" y2="-3.22" width="0.127" layer="21"/>
+<wire x1="30" y1="-3.22" x2="30" y2="4.03" width="0.127" layer="21"/>
+<wire x1="30" y1="4.03" x2="-30" y2="4.03" width="0.127" layer="21"/>
+<wire x1="27" y1="-2.84" x2="27" y2="2.03" width="0.127" layer="21"/>
+<wire x1="27" y1="2.03" x2="-27" y2="2.03" width="0.127" layer="21"/>
+<wire x1="-27" y1="2.03" x2="-27" y2="-2.84" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DOTMATIX-64A">
@@ -1763,6 +1788,17 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;</description>
 </technologies>
 </device>
 <device name="_2.42INCH" package="SSD1309_128X64-I2C_2.42INCH(70X48MM)">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SCL" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="V1" package="SSD1309_PERSONALV1">
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="SCL" pad="3"/>
