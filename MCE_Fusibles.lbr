@@ -74,6 +74,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;06/01/2024: Creacion de fusible SDM 1206
+&lt;li&gt;05/09/2024: Add PTC resettable fuse CMF-RL25U-0
 &lt;/ul&gt;
 
 Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
@@ -97,6 +98,27 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <text x="-2.5" y="1.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="CMF-RL25U">
+<description>&lt;b&gt;POLYFUSE® Resettable PTC.&lt;/b&gt;</description>
+<wire x1="-1" y1="0.5" x2="1" y2="0.5" width="0.127" layer="21"/>
+<wire x1="1" y1="0.5" x2="1" y2="0" width="0.127" layer="21"/>
+<wire x1="1" y1="0" x2="1" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.5" x2="-1" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.5" x2="-1" y2="0" width="0.127" layer="21"/>
+<wire x1="-1" y1="0" x2="-1" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="1" y2="0" width="0.127" layer="21"/>
+<wire x1="-1" y1="0" x2="-1.5" y2="0" width="0.127" layer="21"/>
+<wire x1="1" y1="0" x2="1.5" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="-1" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1" x2="-1.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="1" y1="1" x2="1.5" y2="1" width="0.127" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6764"/>
+<pad name="2" x="2.54" y="0" drill="0.8128" diameter="1.6764"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE_RES">
@@ -113,6 +135,19 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <pin name="1" x="-7.62" y="0" visible="off" length="point" rot="R180"/>
 <pin name="2" x="5.08" y="0" visible="off" length="point"/>
 </symbol>
+<symbol name="VARISTOR">
+<text x="-2.4784" y="2.0466" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.7587" y="-3.6443" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="-2.5" y1="1" x2="-2.5" y2="-1" width="0.254" layer="94"/>
+<wire x1="-2.5" y1="-1" x2="2.5" y2="-1" width="0.254" layer="94"/>
+<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.254" layer="94"/>
+<wire x1="2.5" y1="1" x2="-2.5" y2="1" width="0.254" layer="94"/>
+<wire x1="2.7" y1="1.6" x2="1.6" y2="1.6" width="0.254" layer="94"/>
+<wire x1="1.6" y1="1.6" x2="-1.6" y2="-1.6" width="0.254" layer="94"/>
+<wire x1="-1.6" y1="-1.6" x2="-2.7" y2="-1.6" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="F1206" prefix="F" uservalue="yes">
@@ -126,6 +161,24 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CMF-RL25U" prefix="F" uservalue="yes">
+<description>&lt;b&gt;CMF-RL25U&lt;/b&gt;
+&lt;p&gt;POLYFUSE® Resettable PTC, RADIAL.</description>
+<gates>
+<gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CMF-RL25U">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
