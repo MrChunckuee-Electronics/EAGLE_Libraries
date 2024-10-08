@@ -73,6 +73,7 @@
 <description>Baterias y portabaterias.&lt;p&gt;
 &lt;ul&gt;
 &lt;li&gt;27/05/2020: Porta bateria para CR2032.
+&lt;li&gt;07/10/2024: Porta bateria CR2032-BS-6-1.
 &lt;/ul&gt;
 
 Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
@@ -180,6 +181,36 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 <wire x1="2.5" y1="12" x2="-2.5" y2="12" width="0.127" layer="21" curve="-331.237211"/>
 <wire x1="-2.5" y1="12.5" x2="2.5" y2="12.5" width="0.127" layer="21"/>
 </package>
+<package name="CR2032-BS-6-1">
+<description>&lt;b&gt;LI BATTERY&lt;/b&gt; &lt;p&gt; Link: https://lcsc.com/product-detail/Battery-Connectors_Q-J-CR2032-BS-6-1_C70377.html</description>
+<smd name="-" x="-14.7" y="0" dx="4" dy="4.5" layer="1"/>
+<smd name="+" x="14.7" y="0" dx="4" dy="4.5" layer="1"/>
+<wire x1="-14" y1="3.5" x2="-14" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-14" y1="-3.5" x2="-11" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-11" y1="-3.5" x2="-11" y2="-8" width="0.127" layer="21"/>
+<wire x1="-11" y1="-8" x2="-5" y2="-8" width="0.127" layer="21"/>
+<wire x1="-5" y1="-8" x2="5" y2="-8" width="0.127" layer="21"/>
+<wire x1="5" y1="-8" x2="11" y2="-8" width="0.127" layer="21"/>
+<wire x1="11" y1="-8" x2="11" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="11" y1="-3.5" x2="14" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="14" y1="-3.5" x2="14" y2="3.5" width="0.127" layer="21"/>
+<wire x1="14" y1="3.5" x2="11" y2="3.5" width="0.127" layer="21"/>
+<wire x1="11" y1="3.5" x2="11" y2="6" width="0.127" layer="21"/>
+<wire x1="9" y1="8" x2="5" y2="8" width="0.127" layer="21"/>
+<wire x1="5" y1="8" x2="-5" y2="8" width="0.127" layer="21"/>
+<wire x1="-5" y1="8" x2="-11" y2="8" width="0.127" layer="21"/>
+<wire x1="-11" y1="8" x2="-11" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-11" y1="3.5" x2="-14" y2="3.5" width="0.127" layer="21"/>
+<wire x1="9" y1="8" x2="11" y2="6" width="0.127" layer="21"/>
+<circle x="9.5" y="-6.5" radius="1" width="0.127" layer="21"/>
+<circle x="-9.5" y="6.5" radius="1" width="0.127" layer="21"/>
+<text x="8.8075375" y="-7.372484375" size="1.6764" layer="21">+</text>
+<text x="-10.04886875" y="5.77363125" size="2.1844" layer="21">-</text>
+<wire x1="-5" y1="8" x2="-5" y2="-8" width="0.127" layer="21" curve="106.260205"/>
+<wire x1="5" y1="8" x2="5" y2="-8" width="0.127" layer="21" curve="-106.260205"/>
+<text x="-11" y="9" size="1.27" layer="25">&gt;NAME</text>
+<text x="-11" y="-10" size="1.27" layer="25">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="BATTERY">
@@ -212,6 +243,24 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 </technologies>
 </device>
 <device name="-BS-2-1" package="BS-2-1">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CR2032-BS-6-1" prefix="B">
+<description>&lt;b&gt;LI BATTERY&lt;/b&gt;
+&lt;p&gt; Link: https://lcsc.com/product-detail/Battery-Connectors_Q-J-CR2032-BS-6-1_C70377.html</description>
+<gates>
+<gate name="G$1" symbol="BATTERY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CR2032-BS-6-1">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
