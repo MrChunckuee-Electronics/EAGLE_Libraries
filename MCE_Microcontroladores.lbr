@@ -106,7 +106,7 @@
 &lt;li&gt;31/07/2020: Corrección del nombre y reagrupacion de pines en el PIC18F25K22.
 &lt;li&gt;31/07/2020: Rediseño del simbolo del PIC18F1320.
 &lt;li&gt;26/07/2021: Se agrego microcontrolador PIC18(L)F67K40, encapsulador TQFP64. 
-&lt;li&gt;27/01/2023: Se agrego el SoC ESP32-WROOM 
+&lt;li&gt;07/10/2024: Se agrego el SoC ESP32-WROOM 
 &lt;/ul&gt;
 
 Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
