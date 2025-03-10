@@ -108,10 +108,10 @@ Grid 22.5 mm</description>
 <wire x1="-11.1675" y1="5" x2="-11.1675" y2="-5" width="0.1524" layer="21"/>
 <wire x1="-11.1675" y1="-5" x2="11.1675" y2="-5" width="0.1524" layer="21"/>
 <wire x1="11.1675" y1="-5" x2="11.1675" y2="5" width="0.1524" layer="21"/>
-<pad name="1" x="-12.065" y="0" drill="1.1" shape="octagon"/>
-<pad name="2" x="12.065" y="0" drill="1.1" shape="octagon"/>
+<pad name="1" x="-12.065" y="0" drill="1.016" diameter="2.1844" shape="octagon"/>
+<pad name="2" x="12.065" y="0" drill="1.016" diameter="2.1844" shape="octagon"/>
 <text x="-3.81" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.175" y="-1.905" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="0414/15">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
