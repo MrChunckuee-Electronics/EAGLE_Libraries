@@ -1451,7 +1451,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <pin name="RG1/ANG1" x="-30.48" y="-27.94" length="short"/>
 <pin name="RG2/ANG2/RX2" x="-30.48" y="-30.48" length="short"/>
 <pin name="RG3/ANG3/CCP4" x="-30.48" y="-33.02" length="short"/>
-<pin name="RG4ANG4/CCP5" x="-30.48" y="-35.56" length="short"/>
+<pin name="RG4/ANG4/CCP5" x="-30.48" y="-35.56" length="short"/>
 <pin name="RG5/IOCG5/MCLR" x="-30.48" y="-38.1" length="short"/>
 <pin name="RG6/ANG6" x="-30.48" y="-40.64" length="short"/>
 <pin name="RG7/ANG7" x="-30.48" y="-43.18" length="short"/>
@@ -1596,7 +1596,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <pin name="VDD" x="-27.94" y="10.16" length="short" direction="pwr"/>
 <pin name="RA5/ANA5/CTS3/OSC1" x="-27.94" y="-10.16" length="short"/>
 <pin name="RA4/ANA4/RX3/OSC2" x="-27.94" y="-7.62" length="short"/>
-<pin name="!MCLR!/VPP/RA3" x="-27.94" y="5.08" length="short" direction="in"/>
+<pin name="RA3/VPP/!MCLR" x="-27.94" y="5.08" length="short" direction="in"/>
 <pin name="RX1/ANC5/RC5" x="27.94" y="-5.08" length="short" rot="R180"/>
 <pin name="CTS1/ANC4/RC4" x="27.94" y="-2.54" length="short" rot="R180"/>
 <pin name="ANC3/RC3" x="27.94" y="0" length="short" rot="R180"/>
@@ -1612,7 +1612,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <wire x1="25.4" y1="-12.7" x2="25.4" y2="12.7" width="0.254" layer="94"/>
 <wire x1="25.4" y1="12.7" x2="-25.4" y2="12.7" width="0.254" layer="94"/>
 <text x="-25.4" y="13.74" size="1.27" layer="95">&gt;NAME</text>
-<text x="17.78" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-25.4" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2203,7 +2203,7 @@ with XLP Technology</description>
 <connect gate="G$1" pin="RG1/ANG1" pad="4"/>
 <connect gate="G$1" pin="RG2/ANG2/RX2" pad="5"/>
 <connect gate="G$1" pin="RG3/ANG3/CCP4" pad="6"/>
-<connect gate="G$1" pin="RG4ANG4/CCP5" pad="8"/>
+<connect gate="G$1" pin="RG4/ANG4/CCP5" pad="8"/>
 <connect gate="G$1" pin="RG5/IOCG5/MCLR" pad="7"/>
 <connect gate="G$1" pin="RG6/ANG6" pad="20"/>
 <connect gate="G$1" pin="RG7/ANG7" pad="19"/>
@@ -2354,13 +2354,13 @@ with XLP Technology</description>
 <devices>
 <device name="TSSOP14" package="TSSOP14">
 <connects>
-<connect gate="G$1" pin="!MCLR!/VPP/RA3" pad="4"/>
 <connect gate="G$1" pin="ANC3/RC3" pad="7"/>
 <connect gate="G$1" pin="CTS1/ANC4/RC4" pad="6"/>
 <connect gate="G$1" pin="CTS2/ANC2/RC2" pad="8"/>
 <connect gate="G$1" pin="RA0/ANA0/ICSPDAT" pad="13"/>
 <connect gate="G$1" pin="RA1/ANA1/ISCPCLK" pad="12"/>
 <connect gate="G$1" pin="RA2/ANA2" pad="11"/>
+<connect gate="G$1" pin="RA3/VPP/!MCLR" pad="4"/>
 <connect gate="G$1" pin="RA4/ANA4/RX3/OSC2" pad="3"/>
 <connect gate="G$1" pin="RA5/ANA5/CTS3/OSC1" pad="2"/>
 <connect gate="G$1" pin="RX1/ANC5/RC5" pad="5"/>
