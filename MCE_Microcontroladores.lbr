@@ -1601,7 +1601,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <pin name="CTS1/ANC4/RC4" x="27.94" y="-2.54" length="short" rot="R180"/>
 <pin name="ANC3/RC3" x="27.94" y="0" length="short" rot="R180"/>
 <pin name="CTS2/ANC2/RC2" x="27.94" y="2.54" length="short" rot="R180"/>
-<pin name="RX1/SDA1//ANC1/RC1" x="27.94" y="5.08" length="short" rot="R180"/>
+<pin name="RX2/SDA1/ANC1/RC1" x="27.94" y="5.08" length="short" rot="R180"/>
 <pin name="SCL1/ANC0/RC0" x="27.94" y="7.62" length="short" rot="R180"/>
 <pin name="RA2/ANA2" x="-27.94" y="-5.08" length="short"/>
 <pin name="RA1/ANA1/ISCPCLK" x="-27.94" y="-2.54" length="short"/>
@@ -2364,7 +2364,7 @@ with XLP Technology</description>
 <connect gate="G$1" pin="RA4/ANA4/RX3/OSC2" pad="3"/>
 <connect gate="G$1" pin="RA5/ANA5/CTS3/OSC1" pad="2"/>
 <connect gate="G$1" pin="RX1/ANC5/RC5" pad="5"/>
-<connect gate="G$1" pin="RX1/SDA1//ANC1/RC1" pad="9"/>
+<connect gate="G$1" pin="RX2/SDA1/ANC1/RC1" pad="9"/>
 <connect gate="G$1" pin="SCL1/ANC0/RC0" pad="10"/>
 <connect gate="G$1" pin="VDD" pad="1"/>
 <connect gate="G$1" pin="VSS" pad="14"/>
