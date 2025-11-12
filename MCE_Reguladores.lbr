@@ -283,7 +283,7 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 </package>
 </packages>
 <symbols>
-<symbol name="78XX">
+<symbol name="UA78MXX">
 <wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
@@ -455,32 +455,13 @@ Librerías creadas y editadas a conveniencia propia, pero disponible para ustede
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="UA78M05" prefix="IC">
-<description>Positive Voltaje Regulator 5V</description>
+<deviceset name="UA78MXX" prefix="IC">
+<description>&lt;B&gt; UA78M 500mA, Positive-Voltage Linear Regulator &lt;/B&gt;</description>
 <gates>
-<gate name="G$1" symbol="78XX" x="0" y="0"/>
+<gate name="G$1" symbol="UA78MXX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT223">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="GND@1" pad="4"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="UA78M33" prefix="IC">
-<description>Positive Voltaje Regulator 3.3V</description>
-<gates>
-<gate name="G$1" symbol="78XX" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT223">
+<device name="SOT223" package="SOT223">
 <connects>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="GND@1" pad="4"/>
