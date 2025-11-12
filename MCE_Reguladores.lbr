@@ -77,6 +77,7 @@
 &lt;li&gt;14/01/2018: Se agrego regulador step-down A8498
 &lt;li&gt; 30/12/2023: Se agrego XL6009/XL6019 Regulator Switching Current Boost / Buck-Boost / Inverting DC/DC Converter
 &lt;li&gt; 30/12/2023: Se agrego regulador lineal AMS1117-3.3 (Salia de 3.3 volts)
+&lt;li&gt; 12/11/2025: Se agruparon UA78M05 y UA78M33 ya que son de la misma familia, y se han renombrado como UA78Mxx
 &lt;/ul&gt;
 
 Librerías creadas y editadas a conveniencia propia, pero disponible para ustedes por si desean utilizarlas.&lt;p&gt;
